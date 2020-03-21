@@ -61,13 +61,13 @@ end CFG_MUX21_GEN_BEHAVIORAL;
 
 
 
-configuration CFG_MUX21_GEN_STRUCTURAL of MUX21_generic is
-	for STRUCTURAL
-		for all : IV
-			use configuration WORK.CFG_IV_BEHAVIORAL;
-		end for;
-		for all : ND2
-			use configuration WORK.CFG_ND2_ARCH2;
-		end for;
-	end for;
-end CFG_MUX21_GEN_STRUCTURAL;
+--configuration CFG_MUX21_GEN_STRUCTURAL of MUX21_generic is
+--	for STRUCTURAL
+--		for all : IV
+--			use configuration WORK.CFG_IV_BEHAVIORAL;
+--		end for;
+--		for all : ND2
+--			use configuration WORK.CFG_ND2_ARCH2;
+--		end for;
+--	end for;
+--end CFG_MUX21_GEN_STRUCTURAL;

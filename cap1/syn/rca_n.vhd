@@ -3,9 +3,9 @@ use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
 entity RCA_n is 
-	generic (N : integer := 6;
-			 DRCAS : 	Time := 0 ns;
-	         DRCAC : 	Time := 0 ns);
+	generic (N : integer := 6);
+			--DRCAS : 	Time := 1 ps;
+	        --DRCAC : 	Time := 1 ps);
 	Port (	A:	In	std_logic_vector(N-1 downto 0);
 		B:	In	std_logic_vector(N-1 downto 0);
 		Ci:	In	std_logic;
@@ -19,8 +19,8 @@ architecture STRUCTURAL of RCA_n is
   signal CTMP : std_logic_vector(N downto 0);
 
   component FA 
-  generic (DFAS : 	Time := 0 ns;
-           DFAC : 	Time := 0 ns);
+  --generic (DFAS : 	Time := 0 ns;
+           --DFAC : 	Time := 0 ns);
   Port ( A:	In	std_logic;
 	 B:	In	std_logic;
 	 Ci:	In	std_logic;
@@ -36,7 +36,7 @@ begin
   
   ADDER1: for I in 1 to N generate
     FAI : FA 
-	  generic map (DFAS => DRCAS, DFAC => DRCAC) 
+	  --generic map (DFAS => DRCAS, DFAC => DRCAC) 
 	  Port Map (A(I-1), B(I-1), CTMP(I-1), STMP(I-1), CTMP(I)); 
   end generate;
 
@@ -55,15 +55,15 @@ end STRUCTURAL;
   
 --end BEHAVIORAL;
 
-configuration CFG_RCAN_STRUCTURAL of RCA_n is
-  for STRUCTURAL 
-    for ADDER1
-      for all : FA
-        use configuration WORK.CFG_FA_BEHAVIORAL;
-      end for;
-    end for;
-  end for;
-end CFG_RCAN_STRUCTURAL;
+--configuration CFG_RCAN_STRUCTURAL of RCA_n is
+--  for STRUCTURAL 
+--    for ADDER1
+--      for all : FA
+--        use configuration WORK.CFG_FA_BEHAVIORAL;
+--      end for;
+--    end for;
+--  end for;
+--end CFG_RCAN_STRUCTURAL;
 
 --configuration CFG_RCAN_BEHAVIORAL of RCA_n is
  -- for BEHAVIORAL 

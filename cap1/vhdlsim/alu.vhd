@@ -21,16 +21,16 @@ P_ALU: process (FUNC, DATA1, DATA2)
 
   begin
     case FUNC is
-	when ADD 	=> OUTALU <= ; 
-	when SUB 	=> OUTALU <= ;
-	when MULT 	=> OUTALU <= ;
-	when BITAND 	=> OUTALU <= ; -- bitwise operations
-	when BITOR 	=> OUTALU <= ;
-	when BITXOR 	=> OUTALU <= ;
-	when FUNCLSL 	=> OUTALU <= ; -- logical shift left, HELP: use the concatenation operator &  
-	when FUNCLSR 	=> OUTALU <= ; -- logical shift right
-	when FUNCRL 	=> OUTALU <= ; -- rotate left
-	when FUNCRR 	=> OUTALU <= ; -- toate right
+	when ADD 	=> OUTALU <= DATA1 + DATA2; 
+	when SUB 	=> OUTALU <=  DATA1 - DATA2;
+	--when MULT 	=> OUTALU <= ;
+	when BITAND 	=> OUTALU <= DATA1 AND DATA2; -- bitwise operations
+	when BITOR 	=> OUTALU <= DATA1 OR DATA2;
+	when BITXOR 	=> OUTALU <= DATA1 XOR DATA2;
+	when FUNCLSL 	=> OUTALU <= DATA1(N-1 DOWNTO 1)&'0'; -- logical shift left, HELP: use the concatenation operator &  
+	when FUNCLSR 	=> OUTALU <= '0'&DATA1(N-2 DOWNTO 0); -- logical shift right
+	when FUNCRL 	=> OUTALU <= DATA1 ROL DATA2 ; -- rotate left
+	when FUNCRR 	=> OUTALU <= DATA1 ROR DATA2; -- toate right
 	when others => null;
     end case; 
   end process P_ALU;
