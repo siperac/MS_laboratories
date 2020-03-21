@@ -14,8 +14,9 @@ architecture TEST of TBRCA is
           ZERO_D : out std_logic);
   end component;
 
-  component RCA
-        generic ( DRCAS : Time := 0 ns;
+  component RCA_n
+        generic ( N : integer := 6;
+			  DRCAS : Time := 0 ns;
 	          DRCAC : Time := 0 ns);
 	Port (	A:	In	std_logic_vector(5 downto 0);
 		B:	In	std_logic_vector(5 downto 0);
@@ -23,6 +24,16 @@ architecture TEST of TBRCA is
 		S:	Out	std_logic_vector(5 downto 0);
 		Co:	Out	std_logic);
   end component;
+
+  --component RCA
+  --      generic (DRCAS : Time := 0 ns;
+--	             DRCAC : Time := 0 ns);
+--	Port (	A:	In	std_logic_vector(5 downto 0);
+--		B:	In	std_logic_vector(5 downto 0);
+--		Ci:	In	std_logic;
+--		S:	Out	std_logic_vector(5 downto 0);
+--		Co:	Out	std_logic);
+--  end component;
   
 
   constant Period: time := 1 ns; -- Clock period (1 GHz)
@@ -36,21 +47,35 @@ architecture TEST of TBRCA is
 Begin
 
 -- Instanciate the ADDER without delay in the carry generation
-  UADDER1: RCA 
-	   generic map (DRCAS => 0.02 ns, DRCAC => 0 ns) 
+  UADDER1: RCA_n 
+	   generic map (N=>6,DRCAS => 0.02 ns, DRCAC => 0 ns) 
 	   port map (A, B, Ci, S1, Co1);
   
 -- Instanciate the ADDER with delay
-  UADDER2: RCA 
-	   generic map (DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
+  UADDER2: RCA_n 
+	   generic map (N=>6,DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
 	   port map (A, B, Ci, S2, Co2);
 
 -- Instanciate the ADDER behavioral
-  UADDER3: RCA 
-	   generic map (DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
+  UADDER3: RCA_n 
+	   generic map (N=>6,DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
 	   port map (A, B, Ci, S3, Co3);
   
 
+-- Instanciate the ADDER without delay in the carry generation
+  --UADDER1: RCA 
+	   --generic map (DRCAS => 0.02 ns, DRCAC => 0 ns) 
+	   --port map (A, B, Ci, S1, Co1);
+  
+-- Instanciate the ADDER with delay
+  --UADDER2: RCA 
+	   --generic map (DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
+	   --port map (A, B, Ci, S2, Co2);
+
+-- Instanciate the ADDER behavioral
+  --UADDER3: RCA 
+	   --generic map (DRCAS => 0.02 ns, DRCAC => 0.02 ns) 
+	   --port map (A, B, Ci, S3, Co3);
 
 
 -- Forcing adder input to LFSR output
@@ -90,14 +115,14 @@ end TEST;
 
 configuration RCATEST of TBRCA is
   for TEST
-    for UADDER1: RCA
-      use configuration WORK.CFG_RCA_STRUCTURAL;
+    for UADDER1: RCA_n
+      use configuration WORK.CFG_RCAN_STRUCTURAL;
     end for;
-    for UADDER2: RCA
-      use configuration WORK.CFG_RCA_STRUCTURAL;
+    for UADDER2: RCA_n
+      use configuration WORK.CFG_RCAN_STRUCTURAL;
     end for;
-    for UADDER3: RCA
-      use configuration WORK.CFG_RCA_BEHAVIORAL;
+    for UADDER3: RCA_n
+      use configuration WORK.CFG_RCAN_BEHAVIORAL;
     end for;
   end for;
 end RCATEST;

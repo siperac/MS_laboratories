@@ -34,7 +34,7 @@ begin
 	
 	
 	D <= '0', '1' after 0.4 ns, '0' after 1.1 ns, '1' after 1.4 ns, '0' after 1.7 ns, '1' after 1.9 ns;
-
+	
 	
 	PCLOCK : process(CK)
 	begin

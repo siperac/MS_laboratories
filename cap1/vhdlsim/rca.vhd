@@ -44,9 +44,13 @@ end STRUCTURAL;
 
 architecture BEHAVIORAL of RCA is
 
+ signal sum: std_logic_vector(6 downto 0);
+
 begin
-  
-  S <= (A + B) after DRCAS;
+
+  sum <= (("0"&A) + ("0"&B) + ("000000"&Ci));
+  Co <= sum(6) after DRCAC; 
+  S <= sum(5 downto 0) after DRCAS;
   
 end BEHAVIORAL;
 
