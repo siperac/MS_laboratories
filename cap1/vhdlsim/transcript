@@ -8,317 +8,267 @@
 # //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
 # //  AND IS SUBJECT TO LICENSE TERMS.
 # //
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling configuration cfg_alu_behavioral
+# -- Loading entity alu
+# -- Loading architecture behavior of alu
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu_type.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package alu_type
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# -- Compiling configuration alu_test
+# -- Loading entity tbalu
+# -- Loading architecture test of tbalu
+# -- Loading package numeric_std
+# -- Loading entity alu
+# -- Loading configuration cfg_alu_behavioral
+vsim -t 100ps -novopt work.tbalu
+# vsim -t 100ps -novopt work.tbalu 
 # Loading std.standard
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.constants
-# Loading work.tb_acc(test)
-# Loading work.acc(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.alu_type
+# Loading work.alu_type
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tbalu(test)
+# Loading work.tbalu(test)
 # Loading ieee.numeric_std(body)
-# Loading work.mux21_generic(structural)
-# Loading work.iv(behavioral)
-# Loading work.nd2(arch2)
-# Loading work.rca_n(behavioral)
-# Loading work.register_nr0(pluto)
-add waves *
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# Can't move the Now cursor.
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.alu(behavior)
+# Loading work.alu(behavior)
+# Updating msgviewer database...
 add waves *
 run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut/rca8
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 restart
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
 run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut/rca8
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut/rca8
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+vsim work.alu
+# vsim work.alu 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading work.constants
+# Loading work.alu_type
+# Loading work.alu(behavior)#1
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu_LIBshift.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling configuration cfg_alu_behavioral
+# -- Loading entity alu
+# -- Loading architecture behavior of alu
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu_type.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Compiling package alu_type
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu_LIBshift.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling configuration cfg_alu_behavioral
+# -- Loading entity alu
+# -- Loading architecture behavior of alu
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package numeric_std
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity alu
+# -- Compiling architecture behavior of alu
+# -- Compiling configuration cfg_alu_behavioral
+# -- Loading entity alu
+# -- Loading architecture behavior of alu
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
 # Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 # -- Loading package standard
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package std_logic_unsigned
 # -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# -- Loading entity acc
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# ** Error: /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd(45): near "after": expecting "<=" or ":="
+# ** Error: /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd(54): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
 # Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 # -- Loading package standard
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package std_logic_unsigned
 # -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-restart
-# ** Error: (vsim-13) Recompile work.tb_acc(test) because work.acc has changed.
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# ** Error: /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd(45): near "after": expecting "<=" or ":="
+# ** Error: /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd(54): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
 # Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 # -- Loading package standard
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package std_logic_unsigned
 # -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# -- Loading entity acc
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# -- Compiling configuration alu_test
+# -- Loading entity tbalu
+# -- Loading architecture test of tbalu
+# -- Loading package numeric_std
+# -- Loading entity alu
+# -- Loading configuration cfg_alu_behavioral
 add waves *
-quit
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
-# Error loading design
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /alu
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /alu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /alu
+run
+vsim -t 100ps -novopt work.tbalu
+# vsim -t 100ps -novopt work.tbalu 
 # Loading std.standard
 # Loading ieee.std_logic_1164(body)
 # Loading ieee.std_logic_arith(body)
 # Loading ieee.std_logic_unsigned(body)
 # Loading work.constants
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-restart
-# ** Error: (vsim-13) Recompile work.tb_acc(test) because work.acc has changed.
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
-# Error loading design
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.constants
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# -- Loading entity acc
-restart
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.constants
-# Loading work.tb_acc(test)
-# Loading work.acc(behavioral)
-add waves *
-
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# ** Warning: (vcom-6) -- Waiting for lock by "ms20.8@localhost.localdomain". Lockfile is "/home/ms20.8/MS_laboratories/cap1/vhdlsim/work/_lock".
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# -- Loading entity acc
-restart
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
-run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-quit -sim
-vsim -t 100ps -novopt work.tb_acc
-# vsim -t 100ps -novopt work.tb_acc 
-# Loading std.standard
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.std_logic_arith(body)
-# Loading ieee.std_logic_unsigned(body)
-# Loading work.constants
-# Loading work.tb_acc(test)
-# Loading work.acc(behavioral)
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.alu_type
+# Loading work.alu_type
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tbalu(test)
+# Loading work.tbalu(test)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.alu(behavior)
+# Loading work.alu(behavior)
 add waves *
 run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-restart
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
+# ** Fatal: (vsim-3483) Delay in signal assignment is not ascending.
+#    Time: 0 ps  Iteration: 0  Process: /tbalu/line__42 File: /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
+# Fatal error in Architecture test at /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd line 51
+# 
+# HDL call sequence:
+# Stopped at /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd 51 Architecture test
+# 
 run
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/acc.vhd
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd 51 Architecture test
+# 
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
 # Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
 # -- Loading package standard
 # -- Loading package std_logic_1164
 # -- Loading package std_logic_arith
 # -- Loading package std_logic_unsigned
 # -- Loading package constants
-# -- Compiling entity acc
-# -- Compiling architecture structural of acc
-# -- Compiling architecture behavioral of acc
-# -- Loading entity acc
-vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_acc.vhd
-# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package std_logic_arith
-# -- Loading package std_logic_unsigned
-# -- Loading package constants
-# -- Compiling entity tb_acc
-# -- Compiling architecture test of tb_acc
-# -- Loading entity acc
-restart
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tb_acc(test)
-# Loading work.tb_acc(test)
-# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.acc(behavioral)
-# Loading work.acc(behavioral)
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# -- Compiling configuration alu_test
+# -- Loading entity tbalu
+# -- Loading architecture test of tbalu
+# -- Loading package numeric_std
+# -- Loading entity alu
+# -- Loading configuration cfg_alu_behavioral
 run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd 51 Architecture test
+# 
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap1/vhdlsim/tb_alu.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Loading package constants
+# -- Loading package alu_type
+# -- Compiling entity tbalu
+# -- Compiling architecture test of tbalu
+# -- Compiling configuration alu_test
+# -- Loading entity tbalu
+# -- Loading architecture test of tbalu
+# -- Loading package numeric_std
+# -- Loading entity alu
+# -- Loading configuration cfg_alu_behavioral
+restart
+# Refreshing /home/ms20.8/MS_laboratories/cap1/vhdlsim/work.tbalu(test)
+# Loading work.tbalu(test)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+restart
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 0  Instance: /tb_acc/dut
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1
 # ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut
-# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
-#    Time: 0 ps  Iteration: 1  Instance: /tb_acc/dut
+#    Time: 0 ps  Iteration: 0  Instance: /tbalu/u1

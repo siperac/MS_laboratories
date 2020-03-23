@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version F-2011.09-SP3 for amd64 -- Jan 26, 2012
-#@ # Date:   Sat Mar 21 21:14:41 2020
+#@ # Date:   Sun Mar 22 21:45:24 2020
 #@ # Run by: ms20.8@localhost.localdomain
 #@ 
 
@@ -4772,89 +4772,86 @@ source /home/ms20.8/MS_laboratories/cap1/syn/.synopsys_dc.setup
 #@ # -- End source /home/ms20.8/MS_laboratories/cap1/syn/.synopsys_dc.setup
 
 gui_start
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/nd2.vhd /home/ms20.8/MS_laboratories/cap1/syn/iv.vhd /home/ms20.8/MS_laboratories/cap1/syn/constants.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/register_nR0.vhd /home/ms20.8/MS_laboratories/cap1/syn/mux21_generic.vhd /home/ms20.8/MS_laboratories/cap1/syn/fa.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-clc
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-clc
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/rca_n.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/acc.vhd}
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = "
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = 64"
-change_selection [get_s acc_N64]
-change_selection [get_s acc_N64]
-change_selection [get_s acc_N64]
-change_selection [get_s MUX8]
-change_selection [get_s MUX8]
-change_selection [get_s MUX8]
-change_selection [get_s MUX8]
-::cmenus::create_schematic
-change_selection [get_s acc_N64]
-::cmenus::create_schematic
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -library WORK
+elaborate ALU -library WORK -parameters "N = 4"
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4 "
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
 change_selection 
-change_selection [get_s {{Y[63:0]} {Y[63]} {Y[62]} {Y[61]} {Y[60]} {Y[59]} {Y[58]} {Y[57]} {Y[56]} {Y[55]} {Y[54]} {Y[53]} {Y[52]} {Y[51]} {Y[50]} {Y[49]} {Y[48]}}]
-change_selection -add [get_s {{Y[47]} {Y[46]} {Y[45]} {Y[44]} {Y[43]} {Y[42]} {Y[41]} {Y[40]} {Y[39]} {Y[38]} {Y[37]} {Y[36]} {Y[35]} {Y[34]} {Y[33]} {Y[32]} {Y[31]}}]
-change_selection -add [get_s {{Y[30]} {Y[29]} {Y[28]} {Y[27]} {Y[26]} {Y[25]} {Y[24]} {Y[23]} {Y[22]} {Y[21]} {Y[20]} {Y[19]} {Y[18]} {Y[17]} {Y[16]} {Y[15]} {Y[14]}}]
-change_selection -add [get_s {{Y[13]} {Y[12]} {Y[11]} {Y[10]} {Y[9]} {Y[8]} {Y[7]} {Y[6]} {Y[5]} {Y[4]} {Y[3]} {Y[2]} {Y[1]} {Y[0]}}]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+change_selection [get_s ALU_N4]
 change_selection 
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = "
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = 64"
-change_selection [get_s acc_N64_1]
-::cmenus::create_schematic
-change_selection [get_s N67]
-change_selection [get_s N1]
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = "
+change_selection [get_s {{FUNC[3:0]} {FUNC[3]} {FUNC[2]} {FUNC[1]} {FUNC[0]}}]
+change_selection [get_s C9]
+change_selection [get_s C9]
+change_selection [get_s C9]
+change_selection 
+change_selection [get_s {I_3 {DATA2[3:0]} {DATA2[3]} {DATA2[2]} {DATA2[1]} {DATA2[0]}}]
+change_selection 
+change_selection [get_s N3]
+change_selection 
+change_selection [get_s *Logic0*]
+change_selection 
+change_selection [get_s *Logic0*]
+change_selection [get_s *Logic0*]
+change_selection 
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
 gui_scroll -window [gui_get_current_window -view] -vrel -.2
-gui_scroll -window [gui_get_current_window -view] -vrel -.2
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = 64"
-change_selection [get_s acc_N64]
-change_selection [get_s acc_N64]
-::cmenus::create_schematic
-change_selection [get_s {{Y[63:0]} {Y[63]} {Y[62]} {Y[61]} {Y[60]} {Y[59]} {Y[58]} {Y[57]} {Y[56]} {Y[55]} {Y[54]} {Y[53]} {Y[52]} {Y[51]} {Y[50]} {Y[49]} {Y[48]}}]
-change_selection -add [get_s {{Y[47]} {Y[46]} {Y[45]} {Y[44]} {Y[43]} {Y[42]} {Y[41]} {Y[40]} {Y[39]} {Y[38]} {Y[37]} {Y[36]} {Y[35]} {Y[34]} {Y[33]} {Y[32]} {Y[31]}}]
-change_selection -add [get_s {{Y[30]} {Y[29]} {Y[28]} {Y[27]} {Y[26]} {Y[25]} {Y[24]} {Y[23]} {Y[22]} {Y[21]} {Y[20]} {Y[19]} {Y[18]} {Y[17]} {Y[16]} {Y[15]} {Y[14]}}]
-change_selection -add [get_s {{Y[13]} {Y[12]} {Y[11]} {Y[10]} {Y[9]} {Y[8]} {Y[7]} {Y[6]} {Y[5]} {Y[4]} {Y[3]} {Y[2]} {Y[1]} {Y[0]}}]
-change_selection [get_s ACCUMULATE]
-change_selection [get_s {{out_rca[63:0]} {out_rca[63]} {out_rca[62]} {out_rca[61]} {out_rca[60]} {out_rca[59]} {out_rca[58]} {out_rca[57]} {out_rca[56]}}]
-change_selection -add [get_s {{out_rca[55]} {out_rca[54]} {out_rca[53]} {out_rca[52]} {out_rca[51]} {out_rca[50]} {out_rca[49]} {out_rca[48]} {out_rca[47]}}]
-change_selection -add [get_s {{out_rca[46]} {out_rca[45]} {out_rca[44]} {out_rca[43]} {out_rca[42]} {out_rca[41]} {out_rca[40]} {out_rca[39]} {out_rca[38]}}]
-change_selection -add [get_s {{out_rca[37]} {out_rca[36]} {out_rca[35]} {out_rca[34]} {out_rca[33]} {out_rca[32]} {out_rca[31]} {out_rca[30]} {out_rca[29]}}]
-change_selection -add [get_s {{out_rca[28]} {out_rca[27]} {out_rca[26]} {out_rca[25]} {out_rca[24]} {out_rca[23]} {out_rca[22]} {out_rca[21]} {out_rca[20]}}]
-change_selection -add [get_s {{out_rca[19]} {out_rca[18]} {out_rca[17]} {out_rca[16]} {out_rca[15]} {out_rca[14]} {out_rca[13]} {out_rca[12]} {out_rca[11]}}]
-change_selection -add [get_s {{out_rca[10]} {out_rca[9]} {out_rca[8]} {out_rca[7]} {out_rca[6]} {out_rca[5]} {out_rca[4]} {out_rca[3]} {out_rca[2]}}]
-change_selection -add [get_s {{out_rca[1]} {out_rca[0]}}]
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = "
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = 64"
-change_selection [get_s acc_N64]
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = "
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = "
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = 64"
-change_selection [get_s acc_N64_1]
-::cmenus::create_schematic
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = "
-elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = 64"
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+change_selection 
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+change_selection 
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+change_selection [get_s C75]
+change_selection 
+analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
+elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
+change_selection [get_s ALU_N4]
+change_selection 
 compile -exact_map
-change_selection [get_s acc_N64_1]
-::cmenus::create_schematic
-change_selection [get_s {{Y[3]}}]
-gui_zoom -window [gui_get_current_window -view] -full
-change_selection [get_s mult_add_92_2_aco]
-change_selection [get_s add_92]
-change_selection [get_s mult_add_92_2_aco]
-change_selection [get_s acc_N64_1]
-change_selection [get_s mult_add_92_2_aco]
-change_selection [get_s add_92]
-write -hierarchy -format vhdl -output /home/ms20.8/MS_laboratories/cap1/syn/acc/acc64_beh.vhdl
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = "
-elaborate ACC -architecture STRUCTURAL -library WORK -parameters "N = 64"
-compile -exact_map
-change_selection [get_s acc_N64]
-::cmenus::create_schematic
-change_selection [get_s MUX8]
-write -hierarchy -format vhdl -output /home/ms20.8/MS_laboratories/cap1/syn/acc/acc64_struct.vhdl
+change_selection [get_s ALU_N4]
+change_selection [get_s ALU_N4]
+change_selection 
+write -hierarchy -format vhdl -output /home/ms20.8/MS_laboratories/cap1/syn/alu/alu4_syn_behv.vhdl
+report_area > alu/area_report_alu.txt
+report_timing > alu/timing_report_alu.txt
+report_power > alu/power_report_alu.txt
