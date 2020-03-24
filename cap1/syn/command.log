@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version F-2011.09-SP3 for amd64 -- Jan 26, 2012
-#@ # Date:   Sun Mar 22 21:45:24 2020
+#@ # Date:   Tue Mar 24 19:59:15 2020
 #@ # Run by: ms20.8@localhost.localdomain
 #@ 
 
@@ -4772,86 +4772,10 @@ source /home/ms20.8/MS_laboratories/cap1/syn/.synopsys_dc.setup
 #@ # -- End source /home/ms20.8/MS_laboratories/cap1/syn/.synopsys_dc.setup
 
 gui_start
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -library WORK
-elaborate ALU -library WORK -parameters "N = 4"
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4 "
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
+elaborate ACC -architecture BEHAVIORAL -library WORK -parameters "N = "
 elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = "
 elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
 change_selection [get_s ALU_N4]
-change_selection 
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-change_selection [get_s ALU_N4]
-change_selection 
-change_selection [get_s {{FUNC[3:0]} {FUNC[3]} {FUNC[2]} {FUNC[1]} {FUNC[0]}}]
-change_selection [get_s C9]
-change_selection [get_s C9]
-change_selection [get_s C9]
-change_selection 
-change_selection [get_s {I_3 {DATA2[3:0]} {DATA2[3]} {DATA2[2]} {DATA2[1]} {DATA2[0]}}]
-change_selection 
-change_selection [get_s N3]
-change_selection 
-change_selection [get_s *Logic0*]
-change_selection 
-change_selection [get_s *Logic0*]
-change_selection [get_s *Logic0*]
-change_selection 
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-gui_scroll -window [gui_get_current_window -view] -vrel -.2
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-change_selection 
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-change_selection 
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-change_selection [get_s C75]
-change_selection 
-analyze -library WORK -format vhdl {/home/ms20.8/MS_laboratories/cap1/syn/alu_type.vhd /home/ms20.8/MS_laboratories/cap1/syn/alu_LIBshift.vhd}
-elaborate ALU -architecture BEHAVIOR -library WORK -parameters "N = 4"
-change_selection [get_s ALU_N4]
-change_selection 
-compile -exact_map
-change_selection [get_s ALU_N4]
-change_selection [get_s ALU_N4]
-change_selection 
-write -hierarchy -format vhdl -output /home/ms20.8/MS_laboratories/cap1/syn/alu/alu4_syn_behv.vhdl
-report_area > alu/area_report_alu.txt
-report_timing > alu/timing_report_alu.txt
-report_power > alu/power_report_alu.txt
+report_area > area_rep.txt
+report_t > t_rep.txt
+report_timing > t_rep.txt

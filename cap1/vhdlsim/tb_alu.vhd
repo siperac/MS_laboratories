@@ -39,17 +39,28 @@ begin
         OP1 <= "0000000000110101";
         OP2 <= "0000000000000101";
 	
-	FUNC_CODE <= 	ADD after 2 ns, 
-		     		SUB after 4 ns,
-	             	MULT after 6 ns, 
-				    BITAND after 8 ns,
-	                BITOR after 10 ns, 
-			        BITXOR after 12 ns,
-	                FUNCRL after 14 ns, 
-			        FUNCRR after 16 ns,  
-	                FUNCLSL after 18 ns, 
-			        FUNCLSR after 20 ns; 
+--	FUNC_CODE <= 	ADD after 2 ns, 
+--		     		SUB after 4 ns,
+--	             	MULT after 6 ns, 
+--				    BITAND after 8 ns,
+--	                BITOR after 10 ns, 
+--			        BITXOR after 12 ns,
+--	                FUNCRL after 14 ns, 
+--			        FUNCRR after 16 ns,  
+--	                FUNCLSL after 18 ns, 
+--			        FUNCLSR after 20 ns; 
+
+--	FUNC_CODE <= 	ADD after 2 ns, 
+--		     		SUB after 4 ns,
+--	             	MULT after 6 ns; 
 	             
+	FUNC_CODE <= 	BITAND after 2 ns,
+	                BITOR after 4 ns, 
+			        BITXOR after 6 ns,
+	                FUNCRL after 8 ns, 
+			        FUNCRR after 10 ns,  
+	                FUNCLSL after 12 ns, 
+			        FUNCLSR after 14 ns; 
 
 end TEST;
 

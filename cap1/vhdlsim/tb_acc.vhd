@@ -37,25 +37,25 @@ architecture TEST of tb_acc is
 
 begin  -- TEST
 
- DUT: entity work.ACC (BEHAVIORAL) generic map(N=>nBit)
-    port map (
-        A          => A_i,
-        B          => B_i,
-        CLK        => CLK_i,
-        RST_n      => RST_n_i,
-        ACCUMULATE => ACCUMULATE_i,
+-- DUT: entity work.ACC (BEHAVIORAL) generic map(N=>nBit)
+--    port map (
+--        A          => A_i,
+--        B          => B_i,
+--        CLK        => CLK_i,
+--        RST_n      => RST_n_i,
+--        ACCUMULATE => ACCUMULATE_i,
         -- ACC_EN_n   => ACC_EN_n_i, -- optional
-        Y          => Y_i);
+--        Y          => Y_i);
 
--- DUT: entity work.ACC (structural) generic map(N=>nBit)
---   port map (
---       A          => A_i,
---       B          => B_i,
---      CLK        => CLK_i,
---      RST_n      => RST_n_i,
---       ACCUMULATE => ACCUMULATE_i,
---       -- ACC_EN_n   => ACC_EN_n_i, -- optional
---       Y          => Y_i);
+ DUT: entity work.ACC (structural) generic map(N=>nBit)
+   port map (
+       A          => A_i,
+       B          => B_i,
+      CLK        => CLK_i,
+      RST_n      => RST_n_i,
+       ACCUMULATE => ACCUMULATE_i,
+      -- ACC_EN_n   => ACC_EN_n_i, -- optional
+       Y          => Y_i);
   
   p_clock: process (CLK_i)
 
