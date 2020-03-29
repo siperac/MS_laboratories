@@ -1,0 +1,465 @@
+# //  ModelSim SE-64 6.5c Aug 27 2009 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2009 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux21_generic
+# -- Compiling architecture behavioral of mux21_generic
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rca
+# -- Compiling architecture structural of rca
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behavioral of fa
+# -- Compiling configuration cfg_fa_behavioral
+# -- Loading entity fa
+# -- Loading architecture behavioral of fa
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity lfsr16
+# -- Compiling architecture rtl of lfsr16
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select_block
+# -- Compiling architecture structural of carry_select_block
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select
+# -- Compiling architecture structural of carry_select
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+vsim -t 100ps -novopt work.tb_carry_select
+# vsim -t 100ps -novopt work.tb_carry_select 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.carry_select(structural)
+# Loading work.carry_select(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.carry_select_block(structural)
+# Loading work.carry_select_block(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.rca(structural)
+# Loading work.rca(structural)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.fa(behavioral)
+# Loading work.fa(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.mux21_generic(behavioral)
+# Loading work.mux21_generic(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(50): No default binding for component at 'mux'.
+#  (Generic 'delay_mux' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/mux
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(50): No default binding for component at 'mux'.
+#  (Generic 'delay_mux' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/mux
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+# Error loading design
+vsim -t 100ps -novopt work.tb_carry_select
+# vsim -t 100ps -novopt work.tb_carry_select 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_carry_select(test)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.carry_select(structural)
+# Loading work.carry_select_block(structural)
+# Loading work.rca(structural)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# Loading work.fa(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# Loading work.mux21_generic(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(50): No default binding for component at 'mux'.
+#  (Generic 'delay_mux' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/mux
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(44): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(47): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(40): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(50): No default binding for component at 'mux'.
+#  (Generic 'delay_mux' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/mux
+# Loading work.lfsr16(rtl)
+# Error loading design
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rca
+# -- Compiling architecture structural of rca
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): (vcom-1136) Unknown identifier "drcas".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): (vcom-1136) Unknown identifier "drcac".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): (vcom-1136) Unknown identifier "dfas".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): (vcom-1136) Unknown identifier "dfac".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(39): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity rca
+# -- Compiling architecture structural of rca
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity mux21_generic
+# -- Compiling architecture behavioral of mux21_generic
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity lfsr16
+# -- Compiling architecture rtl of lfsr16
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behavioral of fa
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd(16): (vcom-1136) Unknown identifier "dfas".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd(17): (vcom-1136) Unknown identifier "dfac".
+# ** Error: /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd(20): VHDL Compiler exiting
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Compiling entity fa
+# -- Compiling architecture behavioral of fa
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select_block
+# -- Compiling architecture structural of carry_select_block
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select
+# -- Compiling architecture structural of carry_select
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select
+# -- Compiling architecture structural of carry_select
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+vsim -t 100ps -novopt work.tb_carry_select
+# vsim -t 100ps -novopt work.tb_carry_select 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.carry_select(structural)
+# Loading work.carry_select(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.carry_select_block(structural)
+# Loading work.carry_select_block(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.rca(structural)
+# Loading work.rca(structural)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(43): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(43): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.fa(behavioral)
+# Loading work.fa(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(46): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(46): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__0/csbi/uadder2/adder1__1/fai
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.mux21_generic(behavioral)
+# Loading work.mux21_generic(behavioral)
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(43): No default binding for component at 'uadder1'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(43): No default binding for component at 'uadder1'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder1/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(46): No default binding for component at 'uadder2'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd(46): No default binding for component at 'uadder2'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfac' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# ** Error: (vsim-3733) /home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd(35): No default binding for component at 'fai'.
+#  (Generic 'dfas' is not on the entity.)
+#         Region: /tb_carry_select/uadder1/carry_sel__1/csbi/uadder2/adder1__1/fai
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+# Error loading design
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity carry_select_block
+# -- Compiling architecture structural of carry_select_block
+vsim -t 100ps -novopt work.tb_carry_select
+# vsim -t 100ps -novopt work.tb_carry_select 
+# Loading std.standard
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_carry_select(test)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.carry_select(structural)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.carry_select_block(structural)
+# Loading work.carry_select_block(structural)
+# Loading work.rca(structural)
+# Loading work.fa(behavioral)
+# Loading work.mux21_generic(behavioral)
+# Loading work.lfsr16(rtl)
+add waves *
+run
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+restart
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+# Warning in wave window restart: (vish-4014) No objects found matching '/tb_carry_select/ci'. 
+run
+restart
+add waves *
+restart
+clear
+# [3;J[H[2J
+remove waves
+# waves
+# 
+add waves *
+run
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Compiling entity lfsr16
+# -- Compiling architecture rtl of lfsr16
+restart
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.lfsr16(rtl)
+# Loading work.lfsr16(rtl)
+run
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+restart
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+vcom -reportprogress 300 -work work /home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+# Model Technology ModelSim SE-64 vcom 6.5c Compiler 2009.08 Aug 27 2009
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling entity tb_carry_select
+# -- Compiling architecture test of tb_carry_select
+restart
+# Refreshing /home/ms20.8/MS_laboratories/cap2/vhdlsim/work.tb_carry_select(test)
+# Loading work.tb_carry_select(test)
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_carry_select
