@@ -1,0 +1,597 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : P4_ADDER
+Version: F-2011.09-SP3
+Date   : Sat Apr 11 16:53:15 2020
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[20] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_3/G_K_1 (G_1)                               0.00       0.34 f
+  CGEN/GJ_4_0_3/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_3/U3/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_3/Gx (G_1)                                  0.00       0.44 f
+  CGEN/Co[4] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[5] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_5/Ci (carry_select_block_NPB4_3)              0.00       0.44 f
+  SGEN/csbi_5/mux/sel (MUX21_generic_N4_3)                0.00       0.44 f
+  SGEN/csbi_5/mux/U1/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_5/mux/Y[0] (MUX21_generic_N4_3)               0.00       0.50 r
+  SGEN/csbi_5/S[0] (carry_select_block_NPB4_3)            0.00       0.50 r
+  SGEN/S[20] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[20] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[21] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_3/G_K_1 (G_1)                               0.00       0.34 f
+  CGEN/GJ_4_0_3/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_3/U3/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_3/Gx (G_1)                                  0.00       0.44 f
+  CGEN/Co[4] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[5] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_5/Ci (carry_select_block_NPB4_3)              0.00       0.44 f
+  SGEN/csbi_5/mux/sel (MUX21_generic_N4_3)                0.00       0.44 f
+  SGEN/csbi_5/mux/U2/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_5/mux/Y[1] (MUX21_generic_N4_3)               0.00       0.50 r
+  SGEN/csbi_5/S[1] (carry_select_block_NPB4_3)            0.00       0.50 r
+  SGEN/S[21] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[21] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[22] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_3/G_K_1 (G_1)                               0.00       0.34 f
+  CGEN/GJ_4_0_3/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_3/U3/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_3/Gx (G_1)                                  0.00       0.44 f
+  CGEN/Co[4] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[5] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_5/Ci (carry_select_block_NPB4_3)              0.00       0.44 f
+  SGEN/csbi_5/mux/sel (MUX21_generic_N4_3)                0.00       0.44 f
+  SGEN/csbi_5/mux/U3/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_5/mux/Y[2] (MUX21_generic_N4_3)               0.00       0.50 r
+  SGEN/csbi_5/S[2] (carry_select_block_NPB4_3)            0.00       0.50 r
+  SGEN/S[22] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[22] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[23] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_3/G_K_1 (G_1)                               0.00       0.34 f
+  CGEN/GJ_4_0_3/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_3/U3/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_3/Gx (G_1)                                  0.00       0.44 f
+  CGEN/Co[4] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[5] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_5/Ci (carry_select_block_NPB4_3)              0.00       0.44 f
+  SGEN/csbi_5/mux/sel (MUX21_generic_N4_3)                0.00       0.44 f
+  SGEN/csbi_5/mux/U4/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_5/mux/Y[3] (MUX21_generic_N4_3)               0.00       0.50 r
+  SGEN/csbi_5/S[3] (carry_select_block_NPB4_3)            0.00       0.50 r
+  SGEN/S[23] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[23] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[24] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 f
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.44 f
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.44 f
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.44 f
+  SGEN/csbi_6/mux/U2/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_6/mux/Y[0] (MUX21_generic_N4_2)               0.00       0.50 r
+  SGEN/csbi_6/S[0] (carry_select_block_NPB4_2)            0.00       0.50 r
+  SGEN/S[24] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[24] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[25] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 f
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.44 f
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.44 f
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.44 f
+  SGEN/csbi_6/mux/U3/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_6/mux/Y[1] (MUX21_generic_N4_2)               0.00       0.50 r
+  SGEN/csbi_6/S[1] (carry_select_block_NPB4_2)            0.00       0.50 r
+  SGEN/S[25] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[25] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[26] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 f
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.44 f
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.44 f
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.44 f
+  SGEN/csbi_6/mux/U4/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_6/mux/Y[2] (MUX21_generic_N4_2)               0.00       0.50 r
+  SGEN/csbi_6/S[2] (carry_select_block_NPB4_2)            0.00       0.50 r
+  SGEN/S[26] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[26] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[27] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 r
+  A[3] (in)                                               0.00       0.00 r
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 r
+  CGEN/U5/ZN (INV_X1)                                     0.02       0.02 f
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 r
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 f
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 f
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.04       0.12 r
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 f
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 f
+  CGEN/GJ_1_0_0/U2/ZN (NOR2_X1)                           0.04       0.19 r
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.03       0.21 f
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 f
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 f
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 r
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.27 f
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.27 f
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.27 f
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 r
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.03       0.34 f
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 f
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 f
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.06       0.39 f
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.04       0.44 f
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.44 f
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.44 f
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.44 f
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.44 f
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.44 f
+  SGEN/csbi_6/mux/U1/Z (MUX2_X1)                          0.06       0.50 r
+  SGEN/csbi_6/mux/Y[3] (MUX21_generic_N4_2)               0.00       0.50 r
+  SGEN/csbi_6/S[3] (carry_select_block_NPB4_2)            0.00       0.50 r
+  SGEN/S[27] (sum_generator_N32_NPB4)                     0.00       0.50 r
+  S[27] (out)                                             0.00       0.50 r
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[24] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 f
+  CGEN/U5/ZN (INV_X1)                                     0.03       0.03 r
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 f
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 r
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 r
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.03       0.11 f
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 r
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 r
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 r
+  CGEN/GJ_1_0_0/U3/ZN (NOR2_X1)                           0.02       0.17 f
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.05       0.21 r
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 r
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 r
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 f
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.28 r
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.28 r
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.28 r
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 f
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.04       0.34 r
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 r
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 r
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.04       0.38 r
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.05       0.43 r
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.43 r
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.43 r
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.43 r
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.43 r
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.43 r
+  SGEN/csbi_6/mux/U2/Z (MUX2_X1)                          0.07       0.50 f
+  SGEN/csbi_6/mux/Y[0] (MUX21_generic_N4_2)               0.00       0.50 f
+  SGEN/csbi_6/S[0] (carry_select_block_NPB4_2)            0.00       0.50 f
+  SGEN/S[24] (sum_generator_N32_NPB4)                     0.00       0.50 f
+  S[24] (out)                                             0.00       0.50 f
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+  Startpoint: A[3] (input port)
+  Endpoint: S[25] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  P4_ADDER           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  input external delay                                    0.00       0.00 f
+  A[3] (in)                                               0.00       0.00 f
+  CGEN/A[3] (carry_generator_N32_NPB4)                    0.00       0.00 f
+  CGEN/U5/ZN (INV_X1)                                     0.03       0.03 r
+  CGEN/U4/ZN (NAND2_X1)                                   0.02       0.05 f
+  CGEN/U1/ZN (NAND2_X1)                                   0.03       0.08 r
+  CGEN/PGJ_0_1_0/P_IK (PG_0)                              0.00       0.08 r
+  CGEN/PGJ_0_1_0/U2/ZN (AOI21_X1)                         0.03       0.11 f
+  CGEN/PGJ_0_1_0/U1/ZN (INV_X1)                           0.03       0.14 r
+  CGEN/PGJ_0_1_0/Gx (PG_0)                                0.00       0.14 r
+  CGEN/GJ_1_0_0/G_IK (G_8)                                0.00       0.14 r
+  CGEN/GJ_1_0_0/U3/ZN (NOR2_X1)                           0.02       0.17 f
+  CGEN/GJ_1_0_0/U1/ZN (NOR2_X1)                           0.05       0.21 r
+  CGEN/GJ_1_0_0/Gx (G_8)                                  0.00       0.21 r
+  CGEN/GJ_2_0_0/G_K_1 (G_7)                               0.00       0.21 r
+  CGEN/GJ_2_0_0/U2/ZN (NAND2_X1)                          0.03       0.24 f
+  CGEN/GJ_2_0_0/U1/ZN (NAND2_X1)                          0.03       0.28 r
+  CGEN/GJ_2_0_0/Gx (G_7)                                  0.00       0.28 r
+  CGEN/GJ_3_0_0/G_K_1 (G_6)                               0.00       0.28 r
+  CGEN/GJ_3_0_0/U2/ZN (NAND2_X1)                          0.03       0.30 f
+  CGEN/GJ_3_0_0/U1/ZN (NAND2_X1)                          0.04       0.34 r
+  CGEN/GJ_3_0_0/Gx (G_6)                                  0.00       0.34 r
+  CGEN/GJ_4_0_2/G_K_1 (G_2)                               0.00       0.34 r
+  CGEN/GJ_4_0_2/U2/ZN (OR2_X1)                            0.04       0.38 r
+  CGEN/GJ_4_0_2/U1/ZN (AND2_X2)                           0.05       0.43 r
+  CGEN/GJ_4_0_2/Gx (G_2)                                  0.00       0.43 r
+  CGEN/Co[5] (carry_generator_N32_NPB4)                   0.00       0.43 r
+  SGEN/Ci[6] (sum_generator_N32_NPB4)                     0.00       0.43 r
+  SGEN/csbi_6/Ci (carry_select_block_NPB4_2)              0.00       0.43 r
+  SGEN/csbi_6/mux/sel (MUX21_generic_N4_2)                0.00       0.43 r
+  SGEN/csbi_6/mux/U3/Z (MUX2_X1)                          0.07       0.50 f
+  SGEN/csbi_6/mux/Y[1] (MUX21_generic_N4_2)               0.00       0.50 f
+  SGEN/csbi_6/S[1] (carry_select_block_NPB4_2)            0.00       0.50 f
+  SGEN/S[25] (sum_generator_N32_NPB4)                     0.00       0.50 f
+  S[25] (out)                                             0.00       0.50 f
+  data arrival time                                                  0.50
+
+  max_delay                                               0.30       0.30
+  output external delay                                   0.00       0.30
+  data required time                                                 0.30
+  --------------------------------------------------------------------------
+  data required time                                                 0.30
+  data arrival time                                                 -0.50
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -0.20
+
+
+1

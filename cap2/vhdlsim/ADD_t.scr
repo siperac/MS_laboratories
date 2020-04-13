@@ -6,12 +6,19 @@
 analyze -library WORK -format vhdl {constants.vhd}
 analyze -library WORK -format vhdl {fa.vhd}
 # fill these lines with your files ...
-analyze -library WORK -format vhdl {   }
-analyze -library WORK -format vhdl {   }
+analyze -library WORK -format vhdl {carry_generator.vhd}
+analyze -library WORK -format vhdl {p4_adder.vhd}
+analyze -library WORK -format vhdl {carry_select_block.vhd}
+analyze -library WORK -format vhdl {fa.vhd}
+analyze -library WORK -format vhdl {G.vhd}
+analyze -library WORK -format vhdl {PG.vhd}
+analyze -library WORK -format vhdl {mux21_generic.vhd}
+analyze -library WORK -format vhdl {rca.vhd}
+analyze -library WORK -format vhdl {sum_generator.vhd}
 ##############################################################
 # elaborating the top entity -- here supposed P4ADD#
 # choose the architecture you want
-elaborate P4ADD -architecture STRUCTURAL 
+elaborate P4_ADDER -architecture STRUCTURAL 
 ##########################################
 # first compilation, without constraints #
 compile 
@@ -22,7 +29,7 @@ report_area > ADD_timeopt_1a.rpt
 # to each of th eoutput, that is a delay lower than the one found after
 # the first compilation step #
 # often this is the working clock period of your system #
-set_max_delay REQUIRED_TIME -from [all_inputs] -to [all_outputs]
+set_max_delay 0.52 -from [all_inputs] -to [all_outputs]
 # optimize
 compile -map_effort high
 # save report

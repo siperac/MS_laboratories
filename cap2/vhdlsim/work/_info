@@ -7,71 +7,169 @@ T_opt
 V0_X_fohai:`P0OJ1=3maj3
 04 15 4 work tb_carry_select test 1
 =1-525400582f96-5e7c9d44-b1bcd-7002
-o-quiet -auto_acc_if_foreign -work work
+Z1 o-quiet -auto_acc_if_foreign -work work
 n@_opt
-OL;O;6.5c;42
-Ecarry_select
-Z1 w1585223930
-Z2 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
-Z3 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+Z2 OL;O;6.5c;42
+T_opt1
+VURVmhgFB20KP_I;PjWYTS2
+04 13 4 work multiplier_tb test 1
+=1-525400582f96-5e90467d-17e05-1c3
+R1
+n@_opt1
+R2
+Ebooth_encoder
+Z3 w1586448285
 Z4 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-Z5 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
-Z6 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+Z5 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/Booth_Encoder.vhd
+Z6 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/Booth_Encoder.vhd
 l0
-L5
-VFHhTJ7=Rg_YA5Uaj:2GYJ3
+L4
+VzVi8=WLT@ngH]5Fan<8080
 Z7 OL;C;6.5c;42
 32
 Z8 o-work work
 Z9 tExplicit 1
+!s100 R;B>nDhh@fB?GOIMQXE^P0
+Abehavioral
+R4
+DEx4 work 13 booth_encoder 0 22 zVi8=WLT@ngH]5Fan<8080
+l11
+L9
+VYVLE@ciTfLDKc7i>eRJc]0
+R7
+32
+Z10 Mx1 4 ieee 14 std_logic_1164
+R8
+R9
+!s100 D[`RG@gGULQ6ojLbAD0A[0
+Ebooth_mul
+Z11 w1586517272
+Z12 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z13 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 hEMVMlaNCR^<OOoVNV;m90
+R4
+Z15 8booth_mul.vhd
+Z16 Fbooth_mul.vhd
+l0
+L6
+V3Ao?Y5G>]jbJ6FT1ce``<2
+!s100 eP6KeBAzMoJV34co_^Z:>3
+R7
+32
+R9
+Astructural
+R12
+R13
+R14
+R4
+DEx4 work 9 booth_mul 0 22 3Ao?Y5G>]jbJ6FT1ce``<2
+l54
+L13
+VhD08;o:>:lB_A9b:^B]Y^1
+!s100 Ge9mm8Gld7^;NCU74B^SY1
+R7
+32
+Z17 Mx4 4 ieee 14 std_logic_1164
+Z18 Mx3 4 ieee 18 std_logic_unsigned
+Z19 Mx2 4 ieee 15 std_logic_arith
+Z20 Mx1 4 ieee 11 numeric_std
+R9
+Ecarry_generator
+Z21 w1586111555
+Z22 DPx4 ieee 9 math_real 0 22 zjAF7SKfg_RPI0GT^n1N`1
+R13
+R14
+R4
+Z23 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_generator.vhd
+Z24 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_generator.vhd
+l0
+L7
+VDiWAHbM7XFMBk:F`;4L>k1
+R7
+32
+R8
+R9
+!s100 Z]E`fb?dA`YPBc]Lhdg?D2
+Astructural
+R22
+R13
+R14
+R4
+DEx4 work 15 carry_generator 0 22 DiWAHbM7XFMBk:F`;4L>k1
+l49
+L18
+V4cZ69[KBK=[z2o4DW4RC^2
+R7
+32
+R17
+R18
+R19
+Z25 Mx1 4 ieee 9 math_real
+R8
+R9
+!s100 MH3:O6_L6jBJ0_9ZTbQS@1
+Ecarry_select
+Z26 w1585478975
+R13
+R14
+R4
+Z27 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+Z28 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select.vhd
+l0
+L5
+VFHhTJ7=Rg_YA5Uaj:2GYJ3
+R7
+32
+R8
+R9
 !s100 X<JB^;dZ=6CDWIOe2@WO]0
 Astructural
-R2
-R3
+R13
+R14
 R4
 DEx4 work 12 carry_select 0 22 FHhTJ7=Rg_YA5Uaj:2GYJ3
-32
-Z10 Mx3 4 ieee 14 std_logic_1164
-Z11 Mx2 4 ieee 18 std_logic_unsigned
-Z12 Mx1 4 ieee 15 std_logic_arith
 l23
 L14
 VaASC[a1CjT^Z[DbO^k?;]3
 R7
+32
+Z29 Mx3 4 ieee 14 std_logic_1164
+Z30 Mx2 4 ieee 18 std_logic_unsigned
+Z31 Mx1 4 ieee 15 std_logic_arith
 R8
 R9
 !s100 @F2jkR20I3S?GVUnU;cW]3
 Ecarry_select_block
-Z13 w1585226426
-R2
-R3
+Z32 w1586115541
+R13
+R14
 R4
-Z14 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
-Z15 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
+Z33 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
+Z34 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/carry_select_block.vhd
 l0
 L5
-V`]ci:1]a[6WK2MVneDzGI2
+V93l8l5ogPRbQ08;IXW@2R3
 R7
 32
 R8
 R9
-!s100 Cgf?Z>3LDP1>23@N5H6Ud2
+!s100 Ym]>XS480NC@DklP8MXi60
 Astructural
-R2
-R3
+R13
+R14
 R4
-DEx4 work 18 carry_select_block 0 22 `]ci:1]a[6WK2MVneDzGI2
-32
-R10
-R11
-R12
+DEx4 work 18 carry_select_block 0 22 93l8l5ogPRbQ08;IXW@2R3
 l37
 L13
-V4Q;C:V`]zV8=Cm3zNI<Cn3
+V@PSaK_eC7ehJP<gKa;MI31
 R7
+32
+R29
+R30
+R31
 R8
 R9
-!s100 HMNa_mV0W?S1La>ibhe]L1
+!s100 ;FCWdATENfH6VEgGZTdWf1
 Ccfg_fa_behavioral
 abehavioral
 efa
@@ -79,22 +177,22 @@ DAx4 work 2 fa 10 behavioral 22 :=D^j2_IDa4Hee^]DOX@m2
 R4
 DEx4 work 2 fa 0 22 zWO1M[UQeRGbPSJ3i[olh3
 w1585216688
-Z16 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
-Z17 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
+Z35 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
+Z36 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/fa.vhd
 l0
 L24
 V13Ween<TWOfRP:WAR4eMl3
 R7
 32
-Z18 Mx1 4 ieee 14 std_logic_1164
+R10
 R8
 R9
 !s100 N8jaSFH>R4g@BRL@OEIF?2
 Efa
-Z19 w1585226329
+Z37 w1585226329
 R4
-R16
-R17
+R35
+R36
 l0
 L4
 V]Aj8=>Jcl?^5L`I3GA1bd0
@@ -106,21 +204,46 @@ R9
 Abehavioral
 R4
 DEx4 work 2 fa 0 22 ]Aj8=>Jcl?^5L`I3GA1bd0
-32
-R18
 l14
 L12
 V_BWIfGeQ2PoJF88[:XMV10
 R7
+32
+R10
 R8
 R9
 !s100 nfORVGMHO?gcTPZ?=f14^3
-Elfsr16
-Z20 w1585216754
-R2
+Eg
+Z38 w1585500155
 R4
-Z21 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
-Z22 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
+Z39 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/G.vhd
+Z40 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/G.vhd
+l0
+L4
+V5?BG_;Q??1BV4kk0RMhJn1
+R7
+32
+R8
+R9
+!s100 7oGBAeoeRMTO8TdWXiYgL3
+Abehavioral
+R4
+DEx4 work 1 g 0 22 5?BG_;Q??1BV4kk0RMhJn1
+l15
+L13
+V]Xg1AA5I<6l>0GzJPjzZB3
+R7
+32
+R10
+R8
+R9
+!s100 I_ib[b7TD4@24NTzYT4R<1
+Elfsr16
+Z41 w1585216754
+R13
+R4
+Z42 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
+Z43 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/lfsr.vhd
 l0
 L6
 VJOKMFfDBS_<;fE^1@c@?73
@@ -130,25 +253,56 @@ R8
 R9
 !s100 dJDRSUPlHiOOAR10YTf9A0
 Artl
-R2
+R13
 R4
 DEx4 work 6 lfsr16 0 22 JOKMFfDBS_<;fE^1@c@?73
-32
-Z23 Mx2 4 ieee 14 std_logic_1164
-R12
 l19
 L17
 VR2>hQNAJkNQiIj4Y=57853
 R7
+32
+Z44 Mx2 4 ieee 14 std_logic_1164
+R31
 R8
 R9
 !s100 ;8BHc;7h5ki<MCGC8J1zG2
-Emux21_generic
-Z24 w1585225598
-Z25 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Emultiplier_tb
+Z45 w1586460408
+R13
+R14
 R4
-Z26 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
-Z27 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
+Z46 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_multiplier.vhd
+Z47 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_multiplier.vhd
+l0
+L6
+VBRbU<_S9N0ldYz6Ak`KGE3
+R7
+32
+R8
+R9
+!s100 :I0Fn2e0:=Bn5XXDzbC?41
+Atest
+R13
+R14
+R4
+DEx4 work 13 multiplier_tb 0 22 BRbU<_S9N0ldYz6Ak`KGE3
+l33
+L10
+VdiLL:`A@Q;MiII`@@0Lmb2
+R7
+32
+R29
+R30
+R31
+R8
+R9
+!s100 igc6Ol9^CY72o;_>_cl@U2
+Emux21_generic
+Z48 w1585225598
+R12
+R4
+Z49 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
+Z50 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux21_generic.vhd
 l0
 L6
 VU114I>0z6a]N>PbAJV:Eb2
@@ -158,26 +312,113 @@ R8
 R9
 !s100 5dA1m7IJR[1SW`m5:RUX00
 Abehavioral
-R25
+R12
 R4
 DEx4 work 13 mux21_generic 0 22 U114I>0z6a]N>PbAJV:Eb2
-32
-R23
-Z28 Mx1 4 ieee 11 numeric_std
 l15
 L14
 Va]2192l48ZeJj1?i4EK=a1
 R7
+32
+R44
+R20
 R8
 R9
 !s100 QPBG::iaZ^D0AYCNkD[913
-Erca
-Z29 w1585226293
-R2
-R3
+Emux_booth
+Z51 w1586460209
+R12
 R4
-Z30 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
-Z31 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
+Z52 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux_booth.vhd
+Z53 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/mux_booth.vhd
+l0
+L5
+VB9^j<U6gl[EmK]TBW5cMm0
+R7
+32
+R8
+R9
+!s100 I@e8^Fz6Z^^ZCELQZZeIG3
+Abehavioral
+R12
+R4
+DEx4 work 9 mux_booth 0 22 B9^j<U6gl[EmK]TBW5cMm0
+l13
+L12
+VIn7N2mYH9zSV>Fl0zYhAO1
+R7
+32
+R44
+R20
+R8
+R9
+!s100 Z9hNdhLV2F4gnRjD:2PMl0
+Ep4_adder
+Z54 w1586117814
+R22
+R13
+R14
+R4
+Z55 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/p4_adder.vhd
+Z56 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/p4_adder.vhd
+l0
+L7
+Vo7kRoU]jjT`0U?90e:HX`0
+R7
+32
+R8
+R9
+!s100 9AB[i2ezgNE`3@^_;UChR1
+Astructural
+R22
+R13
+R14
+R4
+DEx4 work 8 p4_adder 0 22 o7kRoU]jjT`0U?90e:HX`0
+l46
+L17
+V46nc0Vi`@KzIzhASZZd_90
+R7
+32
+R17
+R18
+R19
+R25
+R8
+R9
+!s100 jbaZc9`MH@mmQNod5=3[i2
+Epg
+Z57 w1585500161
+R4
+Z58 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/PG.vhd
+Z59 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/PG.vhd
+l0
+L4
+VQzlg6VaL0N]RTS^bB5mc_3
+R7
+32
+R8
+R9
+!s100 ^^QjCY@eH=FfONgeCNm`l3
+Abehavioral
+R4
+DEx4 work 2 pg 0 22 Qzlg6VaL0N]RTS^bB5mc_3
+l15
+L13
+VUmSOiVf??5abW1i]oVV_^2
+R7
+32
+R10
+R8
+R9
+!s100 X6[I;[08U@VQblkD5;d=a2
+Erca
+Z60 w1585226293
+R13
+R14
+R4
+Z61 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
+Z62 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/rca.vhd
 l0
 L5
 VNiAWF;Z7mbAO5hijKilD90
@@ -187,30 +428,30 @@ R8
 R9
 !s100 j536iW6j?VMj>^<KHzCC_3
 Astructural
-R2
-R3
+R13
+R14
 R4
 DEx4 work 3 rca 0 22 NiAWF;Z7mbAO5hijKilD90
-32
-R10
-R11
-R12
 l27
 L14
 VYH75`LgS;9WUB5J@=TaS:1
 R7
+32
+R29
+R30
+R31
 R8
 R9
 !s100 i36fPcT0>obI`ZE1P];da3
 Abehavioral
-R2
-R3
+R13
+R14
 R4
 DEx4 work 3 rca 0 22 Wcz<cT?c=ilfYR]e_d:a:3
 32
-R10
-R11
-R12
+R29
+R30
+R31
 l50
 L46
 V@IAE6[jR0M5JOXj0TU=jh0
@@ -219,13 +460,44 @@ R8
 R9
 w1585225760
 !s100 o:NQ6m`Qhe2P7dPa8Ec^m3
-Etb_carry_generator
-Z32 w1585216352
-R2
-R3
+Esum_generator
+Z63 w1586115446
+R13
+R14
 R4
-Z33 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_generator.vhd
-Z34 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_generator.vhd
+Z64 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/sum_generator.vhd
+Z65 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/sum_generator.vhd
+l0
+L5
+VNz4HIWHDHb=X]Z42DXo7R3
+R7
+32
+R8
+R9
+!s100 =`@kL6=8Z96TcUi:@fmHS0
+Astructural
+R13
+R14
+R4
+DEx4 work 13 sum_generator 0 22 Nz4HIWHDHb=X]Z42DXo7R3
+l25
+L15
+VX0`zEf74Oz[>[5AdNo0W51
+R7
+32
+R29
+R30
+R31
+R8
+R9
+!s100 8;_PfJ23?^[>gDX?Ah:Uh3
+Etb_carry_generator
+Z66 w1586112954
+R13
+R14
+R4
+Z67 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_generator.vhd
+Z68 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_generator.vhd
 l0
 L5
 VeY>F]hEHk:TkE_mQ]0La@1
@@ -235,55 +507,110 @@ R8
 R9
 !s100 l>6eC]]QE^`3n42l4AATG0
 Atest
-R2
-R3
+R13
+R14
 R4
 DEx4 work 18 tb_carry_generator 0 22 eY>F]hEHk:TkE_mQ]0La@1
-l22
-L8
-V@UIPLmPT@VCOTK74AF[WY0
-R7
 32
-R10
-R11
-R12
+R29
+R30
+R31
+l30
+L8
+VOAo8EATN<fKj=86kBE1PH1
+R7
 R8
 R9
-!s100 0L;mcK7Vlc@Na_9EdGBF@1
+!s100 N]ofQ=hDgej;Jm`Z^D_zd0
 Etb_carry_select
-Z35 w1585229041
-R25
+Z69 w1585479417
+R12
 R4
-Z36 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
-Z37 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_carry_select.vhd
+Z70 8tb_carry_select.vhd
+Z71 Ftb_carry_select.vhd
 l0
 L5
-V1l;oNellmofBk75Q[3a=D0
+V@2Ig1@4i]?Q`g8HU^8Ofn2
 R7
 32
-R8
 R9
 !s100 PE8KQ<RjAoEg=e=dz@Unk3
 Atest
-R25
+R12
 R4
-DEx4 work 15 tb_carry_select 0 22 1l;oNellmofBk75Q[3a=D0
-32
-R23
-R28
+DEx4 work 15 tb_carry_select 0 22 @2Ig1@4i]?Q`g8HU^8Ofn2
 l38
 L8
-VM3W9O@cZfJB:Fk^J6fOT41
+VF12Hle:a@eln`FPB?j7oY3
+R7
+32
+R44
+R20
+R9
 !s100 Si103ZgWTPZBS;D2CcKeO0
+Etb_p4_adder
+Z72 w1586117712
+R13
+R14
+R4
+Z73 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_p4_adder.vhd
+Z74 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_p4_adder.vhd
+l0
+L5
+VjgG[O_U3:aLEYCVO;]k2a1
+R7
+32
+R8
+R9
+!s100 =a44cJ71zOJ831Rm5J>0j3
+Atest
+R13
+R14
+R4
+DEx4 work 11 tb_p4_adder 0 22 jgG[O_U3:aLEYCVO;]k2a1
+32
+R29
+R30
+R31
+l39
+L8
+VXOzOlPE28Dn63i=ol8<KA0
 R7
 R8
 R9
-Etbrca
-Z38 w1585218075
-R25
+!s100 n;=3nl`SJ>YL@PY0Qab>;1
+Etb_sum_generator
+Z75 w1585480255
+R12
 R4
-Z39 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_rca.vhd
-Z40 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_rca.vhd
+Z76 8tb_sum_generator.vhd
+Z77 Ftb_sum_generator.vhd
+l0
+L5
+VA3man11d9W7UX^H6YDT>h1
+R7
+32
+R9
+!s100 1M<EC9aOE5P5khFQNWIFE0
+Atest
+R12
+R4
+DEx4 work 16 tb_sum_generator 0 22 A3man11d9W7UX^H6YDT>h1
+32
+R44
+R20
+l38
+L8
+VDfNeO;2A:zKYY_1Elj?V21
+R7
+R9
+!s100 W>U>4PRA8Bn]I?>h1@^T00
+Etbrca
+Z78 w1585218075
+R12
+R4
+Z79 8/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_rca.vhd
+Z80 F/home/ms20.8/MS_laboratories/cap2/vhdlsim/tb_rca.vhd
 l0
 L5
 Va]V;6aeMD=log:>64F;;;1
@@ -293,7 +620,7 @@ R8
 R9
 !s100 ><[R?8EI:3[_?OLbINKnZ3
 Atest
-R25
+R12
 R4
 DEx4 work 5 tbrca 0 22 a]V;6aeMD=log:>64F;;;1
 l47
@@ -301,8 +628,8 @@ L8
 V8NHc]ol>SR[6Fi0LNM2e]2
 R7
 32
-R23
-R28
+R44
+R20
 R8
 R9
 !s100 ]`he96Q:J>OIYB<]^Y[7Q1

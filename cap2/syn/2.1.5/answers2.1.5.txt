@@ -1,0 +1,45 @@
+
+# Post-Synthesys P4_ADDER  
+
+Q1:	Which are the differences among the paths?
+
+|Overall it can be noticed that each of the ten worst cases has a delay of 0.65 ns.
+They all start from B[0] to the 10 MSB pins of the output.
+
+
+|Q2:	|Did something change? 		        
+
+|Yes, the  worst cases have lower delays and they all start from a different pin (B[15]).
+
+|Q3: 	|Compare with the previous results      
+
+|The delays are 20% lower (0.52 ns) than the previous time (0.65 ns) and the critical paths are different.
+
+|Q4: 	|Which is the cause? 		        
+
+|The commands set_max_delay and compile -map_effort high: the compiler synthesized a different hardware to satisfy the constraints imposed before so that the slack was 0 and met the required time.
+
+|Q5:	|Timing -> EndpointSlack 	        
+
+|The histogram shows the number of paths for each interval of slack, from the worst case imposed as constraint (the smallest value), to the best case.
+
+|Q6:    |How the synthesizer obtained better delays?
+
+|The used different components 
+									Not optimized	Optimized
+Number of ports:                           98	|		98
+Number of nets:                           106	|		109
+Number of cells:                            2	|		5
+Number of combinational cells:              0	|		3
+Number of sequential cells:                 0	|		0
+Number of macros:                           0	|		0
+Number of buf/inv:                          0	|		3
+Number of references:                       2	|		3
+
+Total cell area:           			554.875997	|	575.623998
+
+As expected the synthesizer obtained a better time performance by increasing the complexity of the hardware.
+In particular it increased the number of cells and by consequence the number of nets.
+
+
+

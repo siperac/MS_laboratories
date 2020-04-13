@@ -1,0 +1,44 @@
+##############################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the ADDER SYNTHESIS#
+# analyzing and checking vhdl netlist#
+# here the analyze command is used for each file from bottom to top #
+##############################################################
+# fill these lines with your files ...
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/fa.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/carry_generator.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/p4_adder.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/carry_select_block.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/G.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/PG.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/mux21_generic.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/rca.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/sum_generator.vhd}
+analyze -library WORK -format vhdl  {./MUL_32BIT/syn/mux_booth.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/booth_mul.vhd}
+analyze -library WORK -format vhdl {./MUL_32BIT/syn/Booth_Encoder.vhd}
+##############################################################
+# elaborating the top entity -- here supposed P4ADD#
+# choose the architecture you want
+elaborate booth_mul -architecture STRUCTURAL -library WORK -parameters "N = 32"
+##########################################
+# first compilation, without constraints #
+compile -exact_map
+# reporting riming and power after the first synthesis without constraints #
+report_timing -nworst 10 > ./MUL_32BIT/reports/opt/MUL-1t.rpt
+report_area > ./MUL_32BIT/reports/opt/MUL-1a.rpt
+report_power > ./MUL_32BIT/reports/opt/MUL-1p.rpt
+# forces a combinational max delay of REQUIRED_TIME from each of the inputs
+# to each of th eoutput, that is a delay lower than the one found after
+# the first compilation step #
+# often this is the working clock period of your system #
+set_max_delay 7.6 -from [all_inputs] -to [all_outputs]
+# optimize
+compile -map_effort high
+# save report
+report_timing -nworst 10 > ./MUL_32BIT/reports/high_opt/MUL-2t.rpt
+report_area > ./MUL_32BIT/reports/high_opt/MUL-2a.rpt
+report_power > ./MUL_32BIT/reports/high_opt/MUL-2p.rpt
+# saving files
+write -hierarchy -format ddc -output ./MUL_32BIT/syn/post_syn/MUL-STR-topt.ddc
+write -hierarchy -format vhdl -output ./MUL_32BIT/syn/post_syn/MUL-STR-topt.vhdl
+write -hierarchy -format verilog -output ./MUL_32BIT/syn/post_syn/MUL_STR-topt.v
