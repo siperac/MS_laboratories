@@ -1,0 +1,230 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'register_file_NBIT64_NREG32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : register_file_NBIT64_NREG32
+Version: F-2011.09-SP3
+Date   : Tue May  5 00:31:28 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: OUT1_reg[54]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[54] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[54]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[54]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[54] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[55]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[55] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[55]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[55]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[55] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[56]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[56] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[56]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[56]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[56] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[57]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[57] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[57]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[57]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[57] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[58]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[58] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[58]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[58]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[58] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[59]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[59] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[59]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[59]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[59] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[60]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[60] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[60]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[60]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[60] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[61]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[61] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[61]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[61]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[61] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[62]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[62] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[62]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[62]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[62] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+  Startpoint: OUT1_reg[63]
+              (rising edge-triggered flip-flop)
+  Endpoint: OUT1[63] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  OUT1_reg[63]/CK (DFF_X1)                 0.00 #     0.00 r
+  OUT1_reg[63]/Q (DFF_X1)                  0.09       0.09 r
+  OUT1[63] (out)                           0.00       0.09 r
+  data arrival time                                   0.09
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1

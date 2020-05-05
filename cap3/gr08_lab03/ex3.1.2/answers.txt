@@ -1,0 +1,29 @@
+
+
+#Question ex 3.1.2
+
+
+1_ After setting the clock Did something change?
+
+
+After the clock configuration we observed:
+
+- Different critical path : before it was   [Startpoint: REGISTERS_reg[4][4]  --   Endpoint: OUT1_reg[4]]
+							and after it becomes   [Startpoint: OUT1_reg[0] --  Endpoint: OUT1[0]]
+
+- The data arrival time is significantly increased from 0.09 to 0.34 (slack = 1.62)
+
+
+2_ Meaning of the reported values?
+
+   Without the clock configuration the timing report shows as critical paths the slowest combinational circuits.
+   but introducin the clock the timing report takes into account also the entire sequential circuit.
+
+3_ Looking at figure 2 what happens cases similar to Block 1 and Block 3 
+
+	If we impose a clock period the delays of these paths remains unconstrainded because the constraint considers 
+	only the delay to the components sensiteve to the clock checking that the set up time is met (block 4).
+
+4_ Analize the timing report after setting the max delay.. 
+
+	In this case the critical path maintains the same delay because we have only a register without any other combinational circuit. 

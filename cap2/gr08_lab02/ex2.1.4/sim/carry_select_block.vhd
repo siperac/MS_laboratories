@@ -46,6 +46,5 @@ mux: MUX21_generic
 	   generic map (N=>4) 
 	   port map (S1, S2, Ci, S);
 
-
 end STRUCTURAL;
 

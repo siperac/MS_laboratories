@@ -1,0 +1,28 @@
+ 
+****************************************
+Report : area
+Design : SIPISOALU
+Version: F-2011.09-SP3
+Date   : Mon May  4 20:45:02 2020
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mariagrazia.graziano/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                           11
+Number of nets:                            87
+Number of cells:                           65
+Number of combinational cells:             53
+Number of sequential cells:                11
+Number of macros:                           0
+Number of buf/inv:                          9
+Number of references:                      15
+
+Combinational area:        137.256000
+Noncombinational area:      85.120003
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:           222.376002
+Total area:                 undefined
+1

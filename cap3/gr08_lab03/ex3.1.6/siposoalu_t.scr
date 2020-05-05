@@ -1,0 +1,53 @@
+##############################################################
+#SCRIPT FOR SPEEDING UP and RECORDING the ADDER SYNTHESIS#
+# analyzing and checking vhdl netlist#
+# here the analyze command is used for each file from bottom to top #
+##############################################################
+# fill these lines with your files ...
+analyze -library WORK -format vhdl {./syn/sipisoalu.vhd}
+analyze -library WORK -format vhdl {./syn/sipisoAluControl.vhd}
+##############################################################
+# elaborating the top entity -- here supposed P4ADD#
+# choose the architecture you want
+elaborate sipisoalu -architecture A -library WORK 
+##########################################
+# first compilation, without constraints #
+compile -exact_map  
+# reporting riming and power after the first synthesis without constraints #
+report_timing -nworst 10 > ./reports/opt/sipisoalu-1t.rpt
+report_area > ./reports/opt/sipisoalu-1a.rpt
+report_power > ./reports/opt/sipisoalu-1p.rpt
+report_power -cell > ./reports/opt/sipisoalu-1pcell.rpt
+report_power -net > ./reports/opt/sipisoalu-1pcnets.rpt
+# forces a combinational max delay of REQUIRED_TIME from each of the inputs
+# to each of th eoutput, that is a delay lower than the one found after
+# the first compilation step #
+# often this is the working clock period of your system #
+set MAX_PATH 0.36
+create_clock -name "CLK" -period $MAX_PATH CLK
+report_clock > ./reports/clk/clock_report.txt
+set_max_delay $MAX_PATH -from [all_inputs] -to [all_outputs]
+compile -map_effort high
+# save report
+report_timing -nworst 10 > ./reports/clk/sipisoalu-2t.rpt
+report_area > ./reports/clk/sipisoalu-2a.rpt
+report_power > ./reports/clk/sipisoalu-2p.rpt
+report_power -cell > ./reports/clk/sipisoalu-2pcell.rpt
+report_power -net > ./reports/clk/sipisoalu-2pcnets.rpt
+#Power constraints
+#set_max_dynamic_power 100 uW
+set_max_dynamic_power 380 uW
+compile -map_effort high 
+#save reports
+report_timing -nworst 10 > ./reports/power_opt/sipisoalu-3t.rpt
+report_area > ./reports/power_opt/sipisoalu-3a.rpt
+report_power > ./reports/power_opt/sipisoalu-3p.rpt
+report_power -cell > ./reports/power_opt/sipisoalu-3pcell.rpt
+report_power -net > ./reports/power_opt/sipisoalu-3pcnets.rpt
+# saving files
+write -hierarchy -format ddc -output ./syn/post_syn/sipisoalu-A-topt.ddc
+write -hierarchy -format vhdl -output ./syn/post_syn/sipisoalu-A-topt.vhdl
+write -hierarchy -format verilog -output ./syn//post_syn/sipisoalu-A-topt.v
+
+
+

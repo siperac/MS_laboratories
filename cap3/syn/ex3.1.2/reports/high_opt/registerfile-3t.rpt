@@ -1,0 +1,390 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'register_file_NBIT64_NREG32' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nworst 10
+        -max_paths 10
+Design : register_file_NBIT64_NREG32
+Version: F-2011.09-SP3
+Date   : Tue May  5 00:33:13 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: REGISTERS_reg[24][0]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[0]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][0]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][0]/Q (DFF_X1)          0.08       0.08 f
+  U21704/ZN (AOI222_X1)                    0.11       0.19 r
+  U21703/ZN (OAI221_X1)                    0.06       0.24 f
+  U23517/ZN (NOR4_X1)                      0.07       0.31 r
+  U23515/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[0]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[0]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][1]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[1]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][1]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][1]/Q (DFF_X1)          0.08       0.08 f
+  U21706/ZN (AOI222_X1)                    0.11       0.19 r
+  U21705/ZN (OAI221_X1)                    0.06       0.24 f
+  U23521/ZN (NOR4_X1)                      0.07       0.31 r
+  U23519/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[1]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[1]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][2]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[2]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][2]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][2]/Q (DFF_X1)          0.08       0.08 f
+  U21708/ZN (AOI222_X1)                    0.11       0.19 r
+  U21707/ZN (OAI221_X1)                    0.06       0.24 f
+  U23525/ZN (NOR4_X1)                      0.07       0.31 r
+  U23523/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[2]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[2]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][3]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[3]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][3]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][3]/Q (DFF_X1)          0.08       0.08 f
+  U21710/ZN (AOI222_X1)                    0.11       0.19 r
+  U21709/ZN (OAI221_X1)                    0.06       0.24 f
+  U23529/ZN (NOR4_X1)                      0.07       0.31 r
+  U23527/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[3]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[3]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][4]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[4]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][4]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][4]/Q (DFF_X1)          0.08       0.08 f
+  U21712/ZN (AOI222_X1)                    0.11       0.19 r
+  U21711/ZN (OAI221_X1)                    0.06       0.24 f
+  U23533/ZN (NOR4_X1)                      0.07       0.31 r
+  U23531/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[4]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[4]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][5]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[5]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][5]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][5]/Q (DFF_X1)          0.08       0.08 f
+  U21714/ZN (AOI222_X1)                    0.11       0.19 r
+  U21713/ZN (OAI221_X1)                    0.06       0.24 f
+  U23537/ZN (NOR4_X1)                      0.07       0.31 r
+  U23535/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[5]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[5]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][6]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[6]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][6]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][6]/Q (DFF_X1)          0.08       0.08 f
+  U21716/ZN (AOI222_X1)                    0.11       0.19 r
+  U21715/ZN (OAI221_X1)                    0.06       0.24 f
+  U23541/ZN (NOR4_X1)                      0.07       0.31 r
+  U23539/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[6]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[6]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][7]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[7]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][7]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][7]/Q (DFF_X1)          0.08       0.08 f
+  U21718/ZN (AOI222_X1)                    0.11       0.19 r
+  U21717/ZN (OAI221_X1)                    0.06       0.24 f
+  U23545/ZN (NOR4_X1)                      0.07       0.31 r
+  U23543/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[7]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[7]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][8]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[8]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][8]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][8]/Q (DFF_X1)          0.08       0.08 f
+  U21720/ZN (AOI222_X1)                    0.11       0.19 r
+  U21719/ZN (OAI221_X1)                    0.06       0.24 f
+  U23549/ZN (NOR4_X1)                      0.07       0.31 r
+  U23547/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[8]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[8]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+  Startpoint: REGISTERS_reg[24][9]
+              (rising edge-triggered flip-flop clocked by CLK)
+  Endpoint: OUT1_reg[9]
+            (rising edge-triggered flip-flop clocked by CLK)
+  Path Group: CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register_file_NBIT64_NREG32
+                     5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock CLK (rise edge)                    0.00       0.00
+  clock network delay (ideal)              0.00       0.00
+  REGISTERS_reg[24][9]/CK (DFF_X1)         0.00 #     0.00 r
+  REGISTERS_reg[24][9]/Q (DFF_X1)          0.08       0.08 f
+  U21722/ZN (AOI222_X1)                    0.11       0.19 r
+  U21721/ZN (OAI221_X1)                    0.06       0.24 f
+  U23553/ZN (NOR4_X1)                      0.07       0.31 r
+  U23551/ZN (NAND2_X1)                     0.03       0.34 f
+  OUT1_reg[9]/D (DFF_X1)                   0.01       0.35 f
+  data arrival time                                   0.35
+
+  clock CLK (rise edge)                    2.00       2.00
+  clock network delay (ideal)              0.00       2.00
+  OUT1_reg[9]/CK (DFF_X1)                  0.00       2.00 r
+  library setup time                      -0.04       1.96
+  data required time                                  1.96
+  -----------------------------------------------------------
+  data required time                                  1.96
+  data arrival time                                  -0.35
+  -----------------------------------------------------------
+  slack (MET)                                         1.61
+
+
+1

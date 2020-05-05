@@ -1,0 +1,22 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'windowed_register_file_M8_N4_N_bit64_W2' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : clocks
+Design : windowed_register_file_M8_N4_N_bit64_W2
+Version: F-2011.09-SP3
+Date   : Tue May  5 00:53:49 2020
+****************************************
+
+Attributes:
+    d - dont_touch_network
+    f - fix_hold
+    p - propagated_clock
+    G - generated_clock
+    g - lib_generated_clock
+
+Clock          Period   Waveform            Attrs     Sources
+--------------------------------------------------------------------------------
+CLK              2.00   {0 1}                         {CLK}
+--------------------------------------------------------------------------------
+1
