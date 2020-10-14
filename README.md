@@ -1,2 +1,0 @@
-# MS_laboratories
-Microelettronics_Laboratories
