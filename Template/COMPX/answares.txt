@@ -1,0 +1,18 @@
+
+
+
+
+#Question ex 1.2
+
+
+1_ After setting the clock Did something change?
+
+
+2_ Meaning of the reported values?
+
+
+3_ Looking at figure 2 what happens cases similar to Block 1 and Block 3 
+
+
+4_ Analize the timing report after setting the max delay.. 
+
