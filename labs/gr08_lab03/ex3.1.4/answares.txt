@@ -1,0 +1,13 @@
+
+
+#Question ex 3.1.4
+
+
+How does the timing report changes with respect to the previous structure?
+
+As we espected  the critical path of the windowed registerfile has an higher delay and it is
+referred to the path betweern two sequential circuits  [Startpoint: cwp_reg[1]  Endpoint: WRF/OUT1_reg[6]] while in the first version
+of the register file the delay considered only the delay of the register file.
+
+
+

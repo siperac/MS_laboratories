@@ -1,0 +1,2332 @@
+m255
+K3
+z0
+13
+cModel Technology
+Z0 d/home/ms20.8/DLX/Files/DLX_vhd
+T_opt
+V[bzSl<ARSg7W`WjYgCAXT2
+Z1 04 6 4 work tb_dlx test 1
+=23-525400582f96-5f8215fd-d220d-4ecf
+Z2 o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;6.5c;42
+R0
+T_opt1
+!s110 1635342271
+VDR]zOzGRnc7G4LlJkXJe61
+R1
+=10-5254009c17d7-617957bf-a919-2092
+R2
+tCvgOpt 0
+n@_opt1
+OL;O;10.7c;67
+Eadder_pc
+Z3 w1634850753
+Z4 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 d/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd
+Z8 8./a.b-DataPath.core/a.b.a-Fetch.core/adder_pc.vhd
+Z9 F./a.b-DataPath.core/a.b.a-Fetch.core/adder_pc.vhd
+l0
+L5
+VWme0_fzN^5@mCY_<fWWJ;2
+!s100 hI3JP6_4HH4f`@<^0j0O_1
+Z10 OL;C;10.7c;67
+32
+Z11 !s110 1635331061
+!i10b 1
+Z12 !s108 1635331061.000000
+Z13 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.a-Fetch.core/a.b-fetch.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/adder_pc.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/instruction_register.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/register_n.vhd|
+Z14 !s107 ./a.b-DataPath.core/a.b.a-Fetch.core/register_n.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/instruction_register.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/adder_pc.vhd|./a.b-DataPath.core/a.b.a-Fetch.core/a.b-fetch.vhd|
+!i113 0
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R4
+R5
+R6
+DEx4 work 8 adder_pc 0 22 Wme0_fzN^5@mCY_<fWWJ;2
+l13
+L12
+Vl9M5P7=A4bbW=OKcZOjWn3
+!s100 =i3jSh]HgXHz@NCDPTAai1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ealu
+R3
+Z17 DPx4 work 7 globals 0 22 F_O6X9>IA61JcCZ]RYj7Y2
+R4
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R5
+R6
+R7
+Z20 8./a.b-DataPath.core/a.b.c-Execute.core/alu.vhd
+Z21 F./a.b-DataPath.core/a.b.c-Execute.core/alu.vhd
+l0
+L12
+VO_M]KE2;D4;<eRAXH:B5b3
+!s100 _6DDR;PfPMHh8V<^4QjQ11
+R10
+32
+Z22 !s110 1635331064
+!i10b 1
+Z23 !s108 1635331064.000000
+Z24 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/a.b.c-execute.vhd|./a.b-DataPath.core/a.b.c-Execute.core/alu.vhd|./a.b-DataPath.core/a.b.c-Execute.core/comparator.vhd|./a.b-DataPath.core/a.b.c-Execute.core/condition_br.vhd|./a.b-DataPath.core/a.b.c-Execute.core/forwarding_unit.vhd|./a.b-DataPath.core/a.b.c-Execute.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.c-Execute.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.c-Execute.core/register_n.vhd|./a.b-DataPath.core/a.b.c-Execute.core/struct_hazard_unit.vhd|
+Z25 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/struct_hazard_unit.vhd|./a.b-DataPath.core/a.b.c-Execute.core/register_n.vhd|./a.b-DataPath.core/a.b.c-Execute.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.c-Execute.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.c-Execute.core/forwarding_unit.vhd|./a.b-DataPath.core/a.b.c-Execute.core/condition_br.vhd|./a.b-DataPath.core/a.b.c-Execute.core/comparator.vhd|./a.b-DataPath.core/a.b.c-Execute.core/alu.vhd|./a.b-DataPath.core/a.b.c-Execute.core/a.b.c-execute.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R17
+R4
+R18
+R19
+R5
+R6
+Z26 DEx4 work 3 alu 0 22 O_M]KE2;D4;<eRAXH:B5b3
+l44
+L21
+VcghD46Ik;?]j>5mMG5kbO0
+!s100 eW>m@iW5dezVQIh8hY7LO3
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Palu_type
+R5
+R6
+Z27 w1634850809
+R7
+8./globals/alu_type.vhd
+F./globals/alu_type.vhd
+l0
+L4
+VUgHKQDCUEPMZ6dU[8WU]G1
+!s100 ^ikaFTfc^R_fo0JSJERZI3
+R10
+32
+Z28 !s110 1635331060
+!i10b 1
+Z29 !s108 1635331060.000000
+Z30 !s90 -reportprogress|300|-work|work|./globals/000-globals.vhd|./globals/alu_type.vhd|./globals/branch_type.vhd|./globals/compare_type.vhd|./globals/myTypes.vhd|
+Z31 !s107 ./globals/myTypes.vhd|./globals/compare_type.vhd|./globals/branch_type.vhd|./globals/alu_type.vhd|./globals/000-globals.vhd|
+!i113 0
+R15
+R16
+Ebooth_encoder
+R3
+R5
+R6
+R7
+Z32 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/Booth_Encoder.vhd
+Z33 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/Booth_Encoder.vhd
+l0
+L4
+VX?MiV?kBWTSEM;B6Yo9HE1
+!s100 HK142zB8^4TLi_4lFS>kk1
+R10
+32
+R22
+!i10b 1
+R23
+Z34 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/Booth_Encoder.vhd|
+Z35 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/Booth_Encoder.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 13 booth_encoder 0 22 X?MiV?kBWTSEM;B6Yo9HE1
+l11
+L9
+V[Uod:o<82ca4JEG9i1`SA3
+!s100 1VA_POz;L94Mm[]bj<ohJ2
+R10
+32
+R22
+!i10b 1
+R23
+R34
+R35
+!i113 0
+R15
+R16
+Ebooth_mul
+R3
+R4
+R18
+R19
+R5
+R6
+R7
+Z36 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/booth_mul.vhd
+Z37 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/booth_mul.vhd
+l0
+L6
+V6^0mYiZJS?j1O?elQL;nX1
+!s100 GJG08S@_XSBR9;2F[AW0Z0
+R10
+32
+R22
+!i10b 1
+R23
+Z38 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/booth_mul.vhd|
+Z39 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/booth_mul.vhd|
+!i113 0
+R15
+R16
+Astructural
+R4
+R18
+R19
+R5
+R6
+DEx4 work 9 booth_mul 0 22 6^0mYiZJS?j1O?elQL;nX1
+l78
+L15
+VEec]H;DP?5Z<UGL]4aFZ_3
+!s100 IiDVMHURF^e1AiAFd^dGY2
+R10
+32
+R22
+!i10b 1
+R23
+R38
+R39
+!i113 0
+R15
+R16
+Ebranch_cond
+R3
+R17
+Z40 DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+R18
+R19
+R5
+R6
+R7
+Z41 8./a.b-DataPath.core/a.b.b-Decode.core/branch_cond.vhd
+Z42 F./a.b-DataPath.core/a.b.b-Decode.core/branch_cond.vhd
+l0
+L8
+V2?LbW^z9AYC7U=iBB;6o>1
+!s100 6_;RLGe`6FZoCWNVj455J1
+R10
+32
+R11
+!i10b 1
+R12
+Z43 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.b-Decode.core/a.b.b-decode.vhd|./a.b-DataPath.core/a.b.b-Decode.core/branch_cond.vhd|./a.b-DataPath.core/a.b.b-Decode.core/demux21.vhd|./a.b-DataPath.core/a.b.b-Decode.core/ff.vhd|./a.b-DataPath.core/a.b.b-Decode.core/hazard_unit.vhd|./a.b-DataPath.core/a.b.b-Decode.core/instruction_decoder.vhd|./a.b-DataPath.core/a.b.b-Decode.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.b-Decode.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.b-Decode.core/register_n.vhd|./a.b-DataPath.core/a.b.b-Decode.core/register_n_zero_en.vhd|./a.b-DataPath.core/a.b.b-Decode.core/registerfile.vhd|./a.b-DataPath.core/a.b.b-Decode.core/sign_ext_n.vhd|
+Z44 !s107 ./a.b-DataPath.core/a.b.b-Decode.core/sign_ext_n.vhd|./a.b-DataPath.core/a.b.b-Decode.core/registerfile.vhd|./a.b-DataPath.core/a.b.b-Decode.core/register_n_zero_en.vhd|./a.b-DataPath.core/a.b.b-Decode.core/register_n.vhd|./a.b-DataPath.core/a.b.b-Decode.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.b-Decode.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.b-Decode.core/instruction_decoder.vhd|./a.b-DataPath.core/a.b.b-Decode.core/hazard_unit.vhd|./a.b-DataPath.core/a.b.b-Decode.core/ff.vhd|./a.b-DataPath.core/a.b.b-Decode.core/demux21.vhd|./a.b-DataPath.core/a.b.b-Decode.core/branch_cond.vhd|./a.b-DataPath.core/a.b.b-Decode.core/a.b.b-decode.vhd|
+!i113 0
+R15
+R16
+Astructural
+R17
+R40
+R18
+R19
+R5
+R6
+DEx4 work 11 branch_cond 0 22 2?LbW^z9AYC7U=iBB;6o>1
+l16
+L15
+V65bPITB_NkbJ]W7JL>C830
+!s100 1QbTaWLHgjBdJ?B1=e53I2
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Ebranch_history_table
+Z45 w1634850794
+R4
+R5
+R6
+R7
+Z46 8./a.e-BranchPredictor/branch_history_table.vhd
+Z47 F./a.e-BranchPredictor/branch_history_table.vhd
+l0
+L8
+V[OYTl5fz<OWSgehY;D[2[2
+!s100 T>=zb1FVBj[_1PZ<@NR:[2
+R10
+32
+Z48 !s110 1635331066
+!i10b 1
+Z49 !s108 1635331066.000000
+Z50 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/branch_history_table.vhd|
+Z51 !s107 ./a.e-BranchPredictor/branch_history_table.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 20 branch_history_table 0 22 [OYTl5fz<OWSgehY;D[2[2
+l39
+L35
+V9;_f:ohaF@`a:F`Ub;g921
+!s100 OAm4L@hXU0<;1?UZ`=SQl0
+R10
+32
+R48
+!i10b 1
+R49
+R50
+R51
+!i113 0
+R15
+R16
+Ebranch_predictor
+R45
+R4
+R5
+R6
+R7
+Z52 8./a.e-BranchPredictor/branch_predictor.vhd
+Z53 F./a.e-BranchPredictor/branch_predictor.vhd
+l0
+L6
+VCFO@cl0ifzIjMObYBe@e^3
+!s100 z]zeG3?1IPCZ[nMo>5Oo11
+R10
+32
+R48
+!i10b 1
+R49
+Z54 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/branch_predictor.vhd|
+Z55 !s107 ./a.e-BranchPredictor/branch_predictor.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 16 branch_predictor 0 22 CFO@cl0ifzIjMObYBe@e^3
+l103
+L25
+VzhCm`]hO_DAiOHW_3GmKb2
+!s100 nZ86zkCL>42MAH_]Za2SO0
+R10
+32
+R48
+!i10b 1
+R49
+R54
+R55
+!i113 0
+R15
+R16
+Ebranch_target_buffer
+R45
+R4
+R5
+R6
+R7
+Z56 8./a.e-BranchPredictor/branch_target_buffer.vhd
+Z57 F./a.e-BranchPredictor/branch_target_buffer.vhd
+l0
+L8
+V=z1]9HRi=_ajCQ8`iOn9f0
+!s100 JUG3EnAebLgL`3gJYRGHC2
+R10
+32
+R48
+!i10b 1
+R49
+Z58 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/branch_target_buffer.vhd|
+Z59 !s107 ./a.e-BranchPredictor/branch_target_buffer.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 20 branch_target_buffer 0 22 =z1]9HRi=_ajCQ8`iOn9f0
+l80
+L31
+V8j_P=72bYizPV_I>24X8[2
+!s100 8YjhYCj]LhZdP6fClzTKz1
+R10
+32
+R48
+!i10b 1
+R49
+R58
+R59
+!i113 0
+R15
+R16
+Pbranch_type
+R5
+R6
+R27
+R7
+8./globals/branch_type.vhd
+F./globals/branch_type.vhd
+l0
+L4
+VKG3jV1=n3866_6TPm9aRb3
+!s100 zIgLATG]=lUBc@Y4ZYU1]2
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Ecam
+R45
+R4
+R5
+R6
+R7
+Z60 8./a.e-BranchPredictor/cam.vhd
+Z61 F./a.e-BranchPredictor/cam.vhd
+l0
+L6
+V^g05<H[eR5OR]JhNg]YFl3
+!s100 [21^jjNJ5k<S7^VhMZ^GL2
+R10
+32
+R48
+!i10b 1
+R49
+Z62 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/cam.vhd|
+Z63 !s107 ./a.e-BranchPredictor/cam.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 3 cam 0 22 ^g05<H[eR5OR]JhNg]YFl3
+l65
+L28
+VTB^Tf:mBWGCe?8X^f?OAV0
+!s100 ^43YW=D]WZl6bb=Foe9A^2
+R10
+32
+R48
+!i10b 1
+R49
+R62
+R63
+!i113 0
+R15
+R16
+Ecarry_generator
+R3
+R40
+R18
+R19
+R5
+R6
+R7
+Z64 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_generator.vhd
+Z65 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_generator.vhd
+l0
+L7
+V_Z=9X9m?]hO9NZ]WlR=kK2
+!s100 @Vk8OD_cD9JelodIinWlR3
+R10
+32
+Z66 !s110 1635331063
+!i10b 1
+Z67 !s108 1635331063.000000
+Z68 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_generator.vhd|
+Z69 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_generator.vhd|
+!i113 0
+R15
+R16
+Astructural
+R40
+R18
+R19
+R5
+R6
+DEx4 work 15 carry_generator 0 22 _Z=9X9m?]hO9NZ]WlR=kK2
+l52
+L18
+VG3bV:DjTC>R2i48MnNdDB0
+!s100 5j[o_gnKj1kh29G]8H<5P0
+R10
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R15
+R16
+Ecarry_select_block
+R3
+R18
+R19
+R5
+R6
+R7
+Z70 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_select_block.vhd
+Z71 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_select_block.vhd
+l0
+L5
+V4IQ5>HU^9gBWc9YOkIR7F1
+!s100 AGW1JOakbCM_Ld:NBz^2M3
+R10
+32
+R22
+!i10b 1
+R67
+Z72 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_select_block.vhd|
+Z73 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/carry_select_block.vhd|
+!i113 0
+R15
+R16
+Astructural
+R18
+R19
+R5
+R6
+DEx4 work 18 carry_select_block 0 22 4IQ5>HU^9gBWc9YOkIR7F1
+l37
+L13
+VDNA=DCIfXNXW?_`T2=1iW0
+!s100 j3:5186_DYNmDj:am?gb<0
+R10
+32
+R22
+!i10b 1
+R67
+R72
+R73
+!i113 0
+R15
+R16
+Ccfg_alu_behavioral
+eALU
+aBEHAVIOR
+R40
+Z74 DEx4 work 8 p4_adder 0 22 GIzV7aYQ;SE957dE;d<Bk0
+DAx4 work 3 alu 8 behavior 22 cghD46Ik;?]j>5mMG5kbO0
+R17
+R4
+R18
+R19
+R5
+R6
+R26
+R3
+R7
+R20
+R21
+l0
+L77
+VN^23_6BkgHOAf@n247cbM3
+!s100 RN[WDVQ8bDhJNOVTFfiK32
+R10
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Ccfg_tb
+etb_dlx
+aTEST
+R17
+R19
+R18
+R4
+R40
+Z75 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z76 DEx4 work 4 iram 0 22 ZYa^^FP@^_B@VIiWNP:XX2
+Z77 DEx4 work 11 data_memory 0 22 JazW8<PiYOB]I2C72]I1n2
+Z78 DEx4 work 3 dlx 0 22 1VJ1[W;Lh6X>Y^KS:A7S^2
+DAx4 work 6 tb_dlx 4 test 22 P<GcU;lPlkYi7L5Y=Y9DA3
+R5
+R6
+Z79 DEx4 work 6 tb_dlx 0 22 0`Ta?IIRzh`WES5dFomje3
+Z80 w1635330758
+R7
+Z81 8/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/TB_DLX.vhd
+Z82 F/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/TB_DLX.vhd
+l0
+L130
+VQ<EQ:Xmc>Z8jQmP:V;1We3
+!s100 Q;6[QUjK0[=IeR51k=D6E0
+R10
+32
+Z83 !s110 1635336931
+!i10b 0
+Z84 !s108 1635336931.000000
+Z85 !s90 -reportprogress|300|-work|work|/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/TB_DLX.vhd|
+Z86 !s107 /home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/TB_DLX.vhd|
+!i113 0
+R15
+R16
+Ecomparator
+R3
+Z87 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
+Z88 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z89 8./a.b-DataPath.core/a.b.c-Execute.core/comparator.vhd
+Z90 F./a.b-DataPath.core/a.b.c-Execute.core/comparator.vhd
+l0
+L9
+V>YSRHHn3:Zlg8WTzN71>B0
+!s100 ckKW<Z>=HgDnM@h;Yj4eM2
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Abeh
+R87
+R88
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 10 comparator 0 22 >YSRHHn3:Zlg8WTzN71>B0
+l26
+L22
+VVki=2Ik7k`b7;[:AUJSmL1
+!s100 b[m:QRzBhiXWhee7=<61_0
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Pcompare_type
+R5
+R6
+R27
+R7
+8./globals/compare_type.vhd
+F./globals/compare_type.vhd
+l0
+L4
+VXQ7DaYP9U5D`6=o>kID3L3
+!s100 W`mPeZ6XS:NWJm0Q86h:01
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Econd
+R3
+R17
+R40
+R18
+R19
+R5
+R6
+R7
+Z91 8./a.b-DataPath.core/a.b.c-Execute.core/condition_br.vhd
+Z92 F./a.b-DataPath.core/a.b.c-Execute.core/condition_br.vhd
+l0
+L9
+V6BO]1zC=l2C1hnLO^[HRk2
+!s100 0^mzA5KPWcCi@Zm=<UN=k3
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Astructural
+R17
+R40
+R18
+R19
+R5
+R6
+DEx4 work 4 cond 0 22 6BO]1zC=l2C1hnLO^[HRk2
+l21
+L19
+V`OG]W>H[j^`NF9>aY?77n1
+!s100 hhM8Pd>fi9^`Vgj`P^Eng2
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Edata_memory
+Z93 w1634853976
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z94 8./a.d-DRAM.vhd
+Z95 F./a.d-DRAM.vhd
+l0
+L8
+VJazW8<PiYOB]I2C72]I1n2
+!s100 _4E6kAS@hMX;eL2bkcSYJ0
+R10
+32
+R48
+!i10b 1
+R49
+Z96 !s90 -reportprogress|300|-work|work|./TB_DLX.vhd|./a-DLX.vhd|./a.b-DataPath.vhd|./a.c-IRAM.vhd|./a.d-DRAM.vhd|./mux42_input1.vhd|
+Z97 !s107 ./mux42_input1.vhd|./a.d-DRAM.vhd|./a.c-IRAM.vhd|./a.b-DataPath.vhd|./a-DLX.vhd|./TB_DLX.vhd|
+!i113 0
+R15
+R16
+Astr
+R40
+R4
+R18
+R19
+R5
+R6
+R77
+l25
+L22
+VJS`ndEPG@?CWzZVfjDQdJ2
+!s100 j:`C0OLCeU@a=O>CD;hK@1
+R10
+32
+R48
+!i10b 1
+R49
+R96
+R97
+!i113 0
+R15
+R16
+Edatapath
+Z98 w1635338333
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z99 8/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.vhd
+Z100 F/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.vhd
+l0
+L10
+V?Xh6AO51H[OL==zWTQA8?0
+!s100 UaIMQ_KRN;SCge=:bTcAI0
+R10
+32
+Z101 !s110 1635338355
+!i10b 1
+Z102 !s108 1635338355.000000
+Z103 !s90 -reportprogress|300|-work|work|/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.vhd|
+Z104 !s107 /home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.vhd|
+!i113 0
+R15
+R16
+Astructural
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 8 datapath 0 22 ?Xh6AO51H[OL==zWTQA8?0
+l225
+L58
+V^>`:njm_8<>h^WP:=R6VA3
+!s100 UVMbCZljcKS236dhbzW[c1
+R10
+32
+R101
+!i10b 1
+R102
+R103
+R104
+!i113 0
+R15
+R16
+Edecode_unit
+R3
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z105 8./a.b-DataPath.core/a.b.b-Decode.core/a.b.b-decode.vhd
+Z106 F./a.b-DataPath.core/a.b.b-Decode.core/a.b.b-decode.vhd
+l0
+L10
+VG[L24@CFE:Rg^OHN_7z?d1
+!s100 VzPzPehIejND]:b^Sgg`:3
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Astr
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 11 decode_unit 0 22 G[L24@CFE:Rg^OHN_7z?d1
+l194
+L43
+VEAd5o8A6b7^ER=2RGb5mN0
+!s100 ]>I_>]I9^]DMkhdDS8b1k3
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Edemux21
+R3
+R4
+R5
+R6
+R7
+Z107 8./a.b-DataPath.core/a.b.b-Decode.core/demux21.vhd
+Z108 F./a.b-DataPath.core/a.b.b-Decode.core/demux21.vhd
+l0
+L6
+VDJ<`^G1d5UlZb9aBHWEJS1
+!s100 _IGK@_I`<=aYem89hzYK40
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Abehavioral
+R4
+R5
+R6
+DEx4 work 7 demux21 0 22 DJ<`^G1d5UlZb9aBHWEJS1
+l15
+L14
+Vm7e`@kAG1cJ2H1=RNW9GN1
+!s100 bfAW<E=0zim?G<bHc;MJQ0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Edlx
+Z109 w1634851020
+R17
+R5
+R6
+R7
+Z110 8./a-DLX.vhd
+Z111 F./a-DLX.vhd
+l0
+L7
+V1VJ1[W;Lh6X>Y^KS:A7S^2
+!s100 ]^;[<O3bn>Cl<@VW:k]=G2
+R10
+32
+R48
+!i10b 1
+R49
+R96
+R97
+!i113 0
+R15
+R16
+Adlx_rtl
+R17
+R5
+R6
+R78
+l196
+L32
+VCcfVJdS:QS;H^J_=FdNci0
+!s100 _N@QcV:EZfH[e8AAGic8Z1
+R10
+32
+R48
+!i10b 1
+R49
+R96
+R97
+!i113 0
+R15
+R16
+Edlx_cu
+Z112 w1634489486
+R17
+R18
+R19
+R5
+R6
+R7
+Z113 8./a.a-control_unit/a.a-CU_HW.vhd
+Z114 F./a.a-control_unit/a.a-CU_HW.vhd
+l0
+L10
+VOf>H5OSTTez>9IbMF=CYm0
+!s100 0Ke5;j_z=EURgUhJcXlTO2
+R10
+32
+R11
+!i10b 1
+R29
+Z115 !s90 -reportprogress|300|-work|work|./a.a-control_unit/a.a-CU_HW.vhd|./a.a-control_unit/demux21.vhd|./a.a-control_unit/lookup_table.vhd|./a.a-control_unit/mux21_generic.vhd|./a.a-control_unit/register_n.vhd|
+Z116 !s107 ./a.a-control_unit/register_n.vhd|./a.a-control_unit/mux21_generic.vhd|./a.a-control_unit/lookup_table.vhd|./a.a-control_unit/demux21.vhd|./a.a-control_unit/a.a-CU_HW.vhd|
+!i113 0
+R15
+R16
+Adlx_cu_hw
+R17
+R18
+R19
+R5
+R6
+DEx4 work 6 dlx_cu 0 22 Of>H5OSTTez>9IbMF=CYm0
+l186
+L67
+V>b5DZii==mn73_@JVA1N[3
+!s100 O@nQO`9HN:m@Vc?z9jGR52
+R10
+32
+R11
+!i10b 1
+R29
+R115
+R116
+!i113 0
+R15
+R16
+Eexecute_unit
+R3
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z117 8./a.b-DataPath.core/a.b.c-Execute.core/a.b.c-execute.vhd
+Z118 F./a.b-DataPath.core/a.b.c-Execute.core/a.b.c-execute.vhd
+l0
+L10
+VFE_9inF<nj`F:6k1ig95[2
+!s100 INHlU[PM<Jo01=5@?if563
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Astr
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 12 execute_unit 0 22 FE_9inF<nj`F:6k1ig95[2
+l175
+L47
+Vaj>Jn0[b0cE_InR6ID0h91
+!s100 b4RhkHbXe?>XlDE4nZ>hk3
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Efa
+R3
+R5
+R6
+R7
+Z119 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/fa.vhd
+Z120 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/fa.vhd
+l0
+L4
+V@IjnZ7??KFC`DOlen7^781
+!s100 ?=7GSNh2i_P381A[`Sd]i2
+R10
+32
+R66
+!i10b 1
+R67
+Z121 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/fa.vhd|
+Z122 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/fa.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 2 fa 0 22 @IjnZ7??KFC`DOlen7^781
+l14
+L12
+VUZ3mACkgF6Fj94f]l6A]P0
+!s100 UOzdNP2aoRCWzh2Z4K>?c1
+R10
+32
+R66
+!i10b 1
+R67
+R121
+R122
+!i113 0
+R15
+R16
+Efetch_unit
+R3
+R5
+R6
+R7
+Z123 8./a.b-DataPath.core/a.b.a-Fetch.core/a.b-fetch.vhd
+Z124 F./a.b-DataPath.core/a.b.a-Fetch.core/a.b-fetch.vhd
+l0
+L5
+VFX_4DN^OH81_@Fi[c:JLI3
+!s100 Aig]<DH_;aa_3[@9`L;<A2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Abeh
+R5
+R6
+DEx4 work 10 fetch_unit 0 22 FX_4DN^OH81_@Fi[c:JLI3
+l47
+L18
+VTV<nUf^MYAVh[UKjf;n251
+!s100 hT]`F8=26e`:8?IfX]NZM2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eff
+R45
+R5
+R6
+R7
+Z125 8./a.e-BranchPredictor/ff.vhd
+Z126 F./a.e-BranchPredictor/ff.vhd
+l0
+L5
+VR;6[G93EU>;N40g;kA0O>3
+!s100 3dkLAbP_e;dRKEej537:m3
+R10
+32
+R48
+!i10b 1
+R49
+Z127 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/ff.vhd|
+Z128 !s107 ./a.e-BranchPredictor/ff.vhd|
+!i113 0
+R15
+R16
+Apippo
+R5
+R6
+DEx4 work 2 ff 0 22 R;6[G93EU>;N40g;kA0O>3
+l16
+L15
+VI3kmB`zKj^RQ5IU9kQP8d0
+!s100 ?fP7`4eCcN0RHA:dRHKMH2
+R10
+32
+R48
+!i10b 1
+R49
+R127
+R128
+!i113 0
+R15
+R16
+Eforwarding_unit
+R3
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z129 8./a.b-DataPath.core/a.b.c-Execute.core/forwarding_unit.vhd
+Z130 F./a.b-DataPath.core/a.b.c-Execute.core/forwarding_unit.vhd
+l0
+L10
+VLA2M@7C]K=j8BFUQE=>Rh0
+!s100 _VF3Y_=7djR;FbCz3kR^I3
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Abehavioural
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 15 forwarding_unit 0 22 LA2M@7C]K=j8BFUQE=>Rh0
+l37
+L36
+ViH2=`jO@K:GfJ:6`Ul4Xf2
+!s100 d]kZI1:0>16i;8SCK`hF42
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Eg
+R3
+R5
+R6
+R7
+Z131 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/G.vhd
+Z132 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/G.vhd
+l0
+L4
+VR2Jf=O=BOa]DGF9:c]<fO2
+!s100 SmaV3K7<N4MniBK>VHNkM3
+R10
+32
+R66
+!i10b 1
+R67
+Z133 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/G.vhd|
+Z134 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/G.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 1 g 0 22 R2Jf=O=BOa]DGF9:c]<fO2
+l15
+L13
+V9<l`oL;]@iI:ZP:XLUIPN0
+!s100 a<YENX61KZl=0M[E499]B3
+R10
+32
+R66
+!i10b 1
+R67
+R133
+R134
+!i113 0
+R15
+R16
+Pglobals
+R5
+R6
+R27
+R7
+8./globals/000-globals.vhd
+F./globals/000-globals.vhd
+l0
+L5
+VF_O6X9>IA61JcCZ]RYj7Y2
+!s100 I649jlNz8Y6NEV>o]dEf`1
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Ehazard_unit
+Z135 w1634851947
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z136 8./a.b-DataPath.core/a.b.b-Decode.core/hazard_unit.vhd
+Z137 F./a.b-DataPath.core/a.b.b-Decode.core/hazard_unit.vhd
+l0
+L10
+V:Sc2mBd6^[5[JNWo8Z9Bc1
+!s100 aZ9L;03L^AkU5TY]nj_7j0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Abehavioural
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 11 hazard_unit 0 22 :Sc2mBd6^[5[JNWo8Z9Bc1
+l48
+L34
+V;hTMC:11QDbL`7RoD=CX63
+!s100 cAKN3B;?kUl5MCl?UD^lJ2
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Einstruction_decoder
+Z138 w1634852003
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z139 8./a.b-DataPath.core/a.b.b-Decode.core/instruction_decoder.vhd
+Z140 F./a.b-DataPath.core/a.b.b-Decode.core/instruction_decoder.vhd
+l0
+L15
+VKCd46JiEcN[>62DgEm8aW3
+!s100 Zl30XJCebM[=OBjEK3;b_0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Abehavioral
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 19 instruction_decoder 0 22 KCd46JiEcN[>62DgEm8aW3
+l42
+L28
+VG5`8ga[oIg5]HVDZoY8763
+!s100 nH<6@nE1_0HDP9:IMZ]0M0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Einstruction_register
+R3
+R5
+R6
+R7
+Z141 8./a.b-DataPath.core/a.b.a-Fetch.core/instruction_register.vhd
+Z142 F./a.b-DataPath.core/a.b.a-Fetch.core/instruction_register.vhd
+l0
+L5
+V_]De3UNo;FZ3[dgVXne^L3
+!s100 W<D8TKB>TRO]lDhhCao332
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Apippo
+R5
+R6
+DEx4 work 20 instruction_register 0 22 _]De3UNo;FZ3[dgVXne^L3
+l15
+L14
+V_N3BKi[OJ`U8SNKcmNll31
+!s100 iUdQnCG5_llRdWik1:PoE0
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Eiram
+Z143 w1635342250
+R4
+R75
+R5
+R6
+R7
+Z144 8/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.c-IRAM.vhd
+Z145 F/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.c-IRAM.vhd
+l0
+L12
+VZYa^^FP@^_B@VIiWNP:XX2
+!s100 NWUCRlmJPBHH9VA9?AMOL0
+R10
+32
+Z146 !s110 1635342261
+!i10b 1
+Z147 !s108 1635342261.000000
+Z148 !s90 -reportprogress|300|-work|work|/home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.c-IRAM.vhd|
+Z149 !s107 /home/ms21.60/Desktop/MS_laboratories/DLX/Files/DLX_vhd/a.c-IRAM.vhd|
+!i113 0
+R15
+R16
+Airam_bhe
+R4
+R75
+R5
+R6
+R76
+l32
+L24
+VCFMB^0VBRITBL2GLA[QM>3
+!s100 V_SaHW^aaUL`PdzjP3j2<3
+R10
+32
+R146
+!i10b 1
+R147
+R148
+R149
+!i113 0
+R15
+R16
+Elookup_table
+R112
+R4
+R17
+R18
+R19
+R5
+R6
+R7
+Z150 8./a.a-control_unit/lookup_table.vhd
+Z151 F./a.a-control_unit/lookup_table.vhd
+l0
+L17
+V=1UORfN4AhdUcHh;DSXPd0
+!s100 5TnRHkN8FjH^1C]=SH7<h1
+R10
+32
+R11
+!i10b 1
+R29
+R115
+R116
+!i113 0
+R15
+R16
+Abehv
+R4
+R17
+R18
+R19
+R5
+R6
+DEx4 work 12 lookup_table 0 22 =1UORfN4AhdUcHh;DSXPd0
+l58
+L57
+VjmheN]>;F3d4?P3E]8@CY3
+!s100 M38=j8C8NI2:6kV62RKXD2
+R10
+32
+R11
+!i10b 1
+R29
+R115
+R116
+!i113 0
+R15
+R16
+Ememory_unit
+R3
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z152 8./a.b-DataPath.core/a.b.d-Memory.core/a.b.d-memory_unit.vhd
+Z153 F./a.b-DataPath.core/a.b.d-Memory.core/a.b.d-memory_unit.vhd
+l0
+L8
+Vh2dDLamDKWzQP[ZCQbG<A2
+!s100 ZPY@<zYQjib4QbmVFGAKW3
+R10
+32
+Z154 !s110 1635331065
+!i10b 1
+Z155 !s108 1635331065.000000
+Z156 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.d-Memory.core/a.b.d-memory_unit.vhd|./a.b-DataPath.core/a.b.d-Memory.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.d-Memory.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.d-Memory.core/register_n.vhd|
+Z157 !s107 ./a.b-DataPath.core/a.b.d-Memory.core/register_n.vhd|./a.b-DataPath.core/a.b.d-Memory.core/mux42_input1.vhd|./a.b-DataPath.core/a.b.d-Memory.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.d-Memory.core/a.b.d-memory_unit.vhd|
+!i113 0
+R15
+R16
+Astr
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 11 memory_unit 0 22 h2dDLamDKWzQP[ZCQbG<A2
+l53
+L25
+VThWC[kMj0l53^e0C8?IIN3
+!s100 :VK>k^_L0M5Ilo^_Y5WhA2
+R10
+32
+R154
+!i10b 1
+R155
+R156
+R157
+!i113 0
+R15
+R16
+Emux21_generic
+R45
+R4
+R5
+R6
+R7
+Z158 8./a.e-BranchPredictor/mux21_generic.vhd
+Z159 F./a.e-BranchPredictor/mux21_generic.vhd
+l0
+L6
+V3XVWkbMA0Tb^H?KY2[:XV1
+!s100 =aEEC3L6RWT<Q[>dc8ng<3
+R10
+32
+R48
+!i10b 1
+R155
+Z160 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/mux21_generic.vhd|
+Z161 !s107 ./a.e-BranchPredictor/mux21_generic.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R4
+R5
+R6
+DEx4 work 13 mux21_generic 0 22 3XVWkbMA0Tb^H?KY2[:XV1
+l15
+L14
+V]N4fC<eJ>]j@c3^fn=j@;3
+!s100 N@ORPGC2AG4o9;R5dEPif0
+R10
+32
+R48
+!i10b 1
+R155
+R160
+R161
+!i113 0
+R15
+R16
+Emux42
+Z162 w1634850894
+R4
+R5
+R6
+R7
+Z163 8./mux42_input1.vhd
+Z164 F./mux42_input1.vhd
+l0
+L6
+VLb6d@jCdiN87?RCebPzhz2
+!s100 WD>5Y`ki;RG7c<DzQVe0z2
+R10
+32
+R48
+!i10b 1
+R49
+R96
+R97
+!i113 0
+R15
+R16
+Abehavioral
+R4
+R5
+R6
+DEx4 work 5 mux42 0 22 Lb6d@jCdiN87?RCebPzhz2
+l15
+L14
+VG@:DAbI[j^oZZc9j2PZge2
+!s100 2n;WPVdPIUG3o`ETZlb6=2
+R10
+32
+R48
+!i10b 1
+R49
+R96
+R97
+!i113 0
+R15
+R16
+Emux42_input1
+w1602706792
+Z165 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z166 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z167 d/home/ms20.8/MS_laboratories/DLX/Files/DLX_vhd
+8/home/ms20.8/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.core/a.b.c-Execute.core/mux42_input1.vhd
+F/home/ms20.8/MS_laboratories/DLX/Files/DLX_vhd/a.b-DataPath.core/a.b.c-Execute.core/mux42_input1.vhd
+l0
+L6
+V]J<gLzL5Mob54WmUUnFK]1
+Z168 OL;C;6.5c;42
+32
+R15
+Z169 tExplicit 1
+!s100 [:7VZoFn5J1e3Sm`_1YdL0
+Emux83
+w1602611001
+R165
+R166
+R167
+8/home/ms20.8/MS_laboratories/DLX/Files/DLX_vhd/mux83.vhd
+F/home/ms20.8/MS_laboratories/DLX/Files/DLX_vhd/mux83.vhd
+l0
+L6
+V8@kLQgGQMd:1Ch;XhOcVz3
+R168
+32
+R15
+R169
+!s100 <4V<HeP3>:m>0D1LFBeG92
+Abehavioral
+R165
+R166
+DEx4 work 5 mux83 0 22 8@kLQgGQMd:1Ch;XhOcVz3
+l15
+L14
+Vf8c^MQ0ihA<_A;UWVQURm2
+R168
+32
+Mx2 4 ieee 14 std_logic_1164
+Mx1 4 ieee 11 numeric_std
+R15
+R169
+F/home/ms20.8/DLX/Files/DLX_vhd/a.b-DataPath.core/a.b.c-Execute.core/mux83.vhd
+w1602611145
+8/home/ms20.8/DLX/Files/DLX_vhd/a.b-DataPath.core/a.b.c-Execute.core/mux83.vhd
+!s100 XT>jm];g;EHB=k_ggPoJa3
+Emux_booth
+R3
+R4
+R5
+R6
+R7
+Z170 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/mux_booth.vhd
+Z171 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/mux_booth.vhd
+l0
+L5
+VD]n66QPSC7Ae_WA_gAUI`3
+!s100 oJFWj><aB132oz0T`7VFO2
+R10
+32
+R22
+!i10b 1
+R23
+Z172 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/mux_booth.vhd|
+Z173 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/mux_booth.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R4
+R5
+R6
+DEx4 work 9 mux_booth 0 22 D]n66QPSC7Ae_WA_gAUI`3
+l13
+L12
+VQ40TbTKg1bZzS>c36B[nE3
+!s100 [hXb1XH83CeDnPSa8[>Yg2
+R10
+32
+R22
+!i10b 1
+R23
+R172
+R173
+!i113 0
+R15
+R16
+Pmytypes
+R5
+R6
+R27
+R7
+8./globals/myTypes.vhd
+F./globals/myTypes.vhd
+l0
+L4
+Vlbm2ego=UiOD0@5KkR`zE1
+!s100 5;PUlL@T7Ubj5lUUA>f@g2
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Ep4_adder
+R3
+R40
+R18
+R19
+R5
+R6
+R7
+Z174 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/p4_adder.vhd
+Z175 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/p4_adder.vhd
+l0
+L7
+VGIzV7aYQ;SE957dE;d<Bk0
+!s100 4U<aZ4]8zQ]]FYR13hYnE3
+R10
+32
+R22
+!i10b 1
+R23
+Z176 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/p4_adder.vhd|
+Z177 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/p4_adder.vhd|
+!i113 0
+R15
+R16
+Astructural
+R40
+R18
+R19
+R5
+R6
+R74
+l50
+L18
+V:ln29EHz;07<foi>c;F5b0
+!s100 2^TKe8J@fS<k8N;4eSQ4d1
+R10
+32
+R22
+!i10b 1
+R23
+R176
+R177
+!i113 0
+R15
+R16
+Epg
+R3
+R5
+R6
+R7
+Z178 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/PG.vhd
+Z179 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/PG.vhd
+l0
+L4
+V0PIS8Fh3c0mBYTa7EBSdl0
+!s100 LRZ<B<G:2Wf=moBl9TD_e3
+R10
+32
+R66
+!i10b 1
+R67
+Z180 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/PG.vhd|
+Z181 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/PG.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R5
+R6
+DEx4 work 2 pg 0 22 0PIS8Fh3c0mBYTa7EBSdl0
+l15
+L13
+V?V3c]VA;Q]86;zZ3h]hTf3
+!s100 _MEbRCOiz5:C:glV@SCW;1
+R10
+32
+R66
+!i10b 1
+R67
+R180
+R181
+!i113 0
+R15
+R16
+Epriority_encoder
+R45
+R4
+R5
+R6
+R7
+Z182 8./a.e-BranchPredictor/priority_encoder.vhd
+Z183 F./a.e-BranchPredictor/priority_encoder.vhd
+l0
+L5
+Vz8Pz=;5b@MQ`l^=mM7UZP1
+!s100 Vc7O_VOjLh[<QR0hg;F5j2
+R10
+32
+R154
+!i10b 1
+R155
+Z184 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/priority_encoder.vhd|
+Z185 !s107 ./a.e-BranchPredictor/priority_encoder.vhd|
+!i113 0
+R15
+R16
+Abehavior
+R4
+R5
+R6
+DEx4 work 16 priority_encoder 0 22 z8Pz=;5b@MQ`l^=mM7UZP1
+l24
+L23
+VWkT:?I2WE0Wk:Ez9ZTZEh0
+!s100 RQTHi`o3eFYT?HLjR5><g3
+R10
+32
+R154
+!i10b 1
+R155
+R184
+R185
+!i113 0
+R15
+R16
+Eram_target
+R45
+R4
+R5
+R6
+R7
+Z186 8./a.e-BranchPredictor/ram_target.vhd
+Z187 F./a.e-BranchPredictor/ram_target.vhd
+l0
+L6
+VmOCM97aKjk8VDRB9Q9nm>2
+!s100 15YRlTPl>Qo531<lY5?US3
+R10
+32
+R154
+!i10b 1
+R155
+Z188 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/ram_target.vhd|
+Z189 !s107 ./a.e-BranchPredictor/ram_target.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 10 ram_target 0 22 mOCM97aKjk8VDRB9Q9nm>2
+l30
+L26
+V^A:7=TH6ahfRCUA`9g4kS1
+!s100 2=]4>1QTUO2R?0=Jg]mgi0
+R10
+32
+R154
+!i10b 1
+R155
+R188
+R189
+!i113 0
+R15
+R16
+Erca
+R3
+R18
+R19
+R5
+R6
+R7
+Z190 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/rca.vhd
+Z191 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/rca.vhd
+l0
+L5
+VG;0=_3K8goJD3b3R8`1_Y3
+!s100 z1RA<B9V[`m@>j;DhA2?P2
+R10
+32
+R66
+!i10b 1
+R67
+Z192 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/rca.vhd|
+Z193 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/rca.vhd|
+!i113 0
+R15
+R16
+Astructural
+R18
+R19
+R5
+R6
+DEx4 work 3 rca 0 22 G;0=_3K8goJD3b3R8`1_Y3
+l27
+L14
+VU85EfPI=@A2iC>D9241a`3
+!s100 VdH[3f_oz2;[:A@m0>h;L3
+R10
+32
+R66
+!i10b 1
+R67
+R192
+R193
+!i113 0
+R15
+R16
+Eregister_file
+R3
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z194 8./a.b-DataPath.core/a.b.b-Decode.core/registerfile.vhd
+Z195 F./a.b-DataPath.core/a.b.b-Decode.core/registerfile.vhd
+l0
+L8
+VfRKGih`eEC:]Sazg^Uk5V1
+!s100 Ih`MOF429VDhQZ?zka?^V3
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Aa
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 13 register_file 0 22 fRKGih`eEC:]Sazg^Uk5V1
+l33
+L26
+V20[81:TgcG]ERo@ld`@If3
+!s100 mJK>0^J7?AGQ`_I73diaH1
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Eregister_n
+R45
+R5
+R6
+R7
+Z196 8./a.e-BranchPredictor/register_n.vhd
+Z197 F./a.e-BranchPredictor/register_n.vhd
+l0
+L5
+VHU8WikKJof1BQc3BN[NBB0
+!s100 OnEHNMzGfd7E7Y`bcAU?<0
+R10
+32
+R154
+!i10b 1
+R155
+Z198 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/register_n.vhd|
+Z199 !s107 ./a.e-BranchPredictor/register_n.vhd|
+!i113 0
+R15
+R16
+Apippo
+R5
+R6
+DEx4 work 10 register_n 0 22 HU8WikKJof1BQc3BN[NBB0
+l16
+L15
+V_h4DfgMX=j^@4YLFA6Mh71
+!s100 zPTeHg1M;?6=_F^=B:^[n0
+R10
+32
+R154
+!i10b 1
+R155
+R198
+R199
+!i113 0
+R15
+R16
+Eregister_n_zero_en
+R3
+R5
+R6
+R7
+Z200 8./a.b-DataPath.core/a.b.b-Decode.core/register_n_zero_en.vhd
+Z201 F./a.b-DataPath.core/a.b.b-Decode.core/register_n_zero_en.vhd
+l0
+L5
+VRbNOUeaL`1SjcLbzNCXmP2
+!s100 EKHPg_dChd[A?mPB?BAP]2
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Apippo
+R5
+R6
+DEx4 work 18 register_n_zero_en 0 22 RbNOUeaL`1SjcLbzNCXmP2
+l16
+L15
+VmmKTD?I38]8_zX:A2bN^03
+!s100 obL7A2WXSmf2fnVDC`NE@1
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Esign_ext
+R3
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z202 8./a.b-DataPath.core/a.b.b-Decode.core/sign_ext_n.vhd
+Z203 F./a.b-DataPath.core/a.b.b-Decode.core/sign_ext_n.vhd
+l0
+L8
+VG1oQ3OdlIdAQGc@_Wa1cV2
+!s100 `F[bV3Y]6SFXagLoRH5l:1
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Aa
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 8 sign_ext 0 22 G1oQ3OdlIdAQGc@_Wa1cV2
+l17
+L15
+V_KS^NN`1J]TIYX7jZW1C[0
+!s100 a>0PSMm_EoW3L7DaSW>5h0
+R10
+32
+R11
+!i10b 1
+R12
+R43
+R44
+!i113 0
+R15
+R16
+Estruct_hazard_unit
+R3
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z204 8./a.b-DataPath.core/a.b.c-Execute.core/struct_hazard_unit.vhd
+Z205 F./a.b-DataPath.core/a.b.c-Execute.core/struct_hazard_unit.vhd
+l0
+L10
+V_H`ZCSO20a[V41OTZD0Zg1
+!s100 MH=cdFK[en78h>QI^mbNn0
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Abehavioural
+R17
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 18 struct_hazard_unit 0 22 _H`ZCSO20a[V41OTZD0Zg1
+l23
+L22
+VeT`=<iZH4lCDLUAX2efW;2
+!s100 eG>Vhi`LE[ZP@>YESWLFZ0
+R10
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R15
+R16
+Esum_generator
+R3
+R18
+R19
+R5
+R6
+R7
+Z206 8./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/sum_generator.vhd
+Z207 F./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/sum_generator.vhd
+l0
+L5
+VU<O`mz6SPd>dmKnFR?Fg42
+!s100 [F06MQ3_`EaCV4oUB@IIL1
+R10
+32
+R22
+!i10b 1
+R23
+Z208 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/sum_generator.vhd|
+Z209 !s107 ./a.b-DataPath.core/a.b.c-Execute.core/booth_mul/sum_generator.vhd|
+!i113 0
+R15
+R16
+Astructural
+R18
+R19
+R5
+R6
+DEx4 work 13 sum_generator 0 22 U<O`mz6SPd>dmKnFR?Fg42
+l25
+L15
+Vg1UzYQEKFT17Z2B6JE[WN2
+!s100 koMn`7KF1BJ<i=b;]0[ZA2
+R10
+32
+R22
+!i10b 1
+R23
+R208
+R209
+!i113 0
+R15
+R16
+Etb_dlx
+R80
+R5
+R6
+R7
+R81
+R82
+l0
+L6
+V0`Ta?IIRzh`WES5dFomje3
+!s100 gzjjc^PHhe5<_b@dD2[RY2
+R10
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R15
+R16
+Atest
+R5
+R6
+R79
+l74
+L9
+VP<GcU;lPlkYi7L5Y=Y9DA3
+!s100 BS;eG2<[9^P`]d2n;Uc1[1
+R10
+32
+R83
+!i10b 1
+R84
+R85
+R86
+!i113 0
+R15
+R16
+Eup_down_counter
+R45
+R4
+R5
+R6
+R7
+Z210 8./a.e-BranchPredictor/up_down_counter.vhd
+Z211 F./a.e-BranchPredictor/up_down_counter.vhd
+l0
+L6
+V15M47@k4oE8aLZ176f7j@1
+!s100 >X;ZmC^ZC_7Q<b@OU=:Rk0
+R10
+32
+R154
+!i10b 1
+R155
+Z212 !s90 -reportprogress|300|-work|work|./a.e-BranchPredictor/up_down_counter.vhd|
+Z213 !s107 ./a.e-BranchPredictor/up_down_counter.vhd|
+!i113 0
+R15
+R16
+Abehv
+R4
+R5
+R6
+DEx4 work 15 up_down_counter 0 22 15M47@k4oE8aLZ176f7j@1
+l19
+L17
+VbWkHV;P>Y?2VQUB=nFb7J2
+!s100 S@6=o3Tgk;ZG38]243F5^0
+R10
+32
+R154
+!i10b 1
+R155
+R212
+R213
+!i113 0
+R15
+R16
+Ewb_unit
+R3
+R40
+R4
+R18
+R19
+R5
+R6
+R7
+Z214 8./a.b-DataPath.core/a.b.e-WB.core/a.b.e-WB_unit.vhd
+Z215 F./a.b-DataPath.core/a.b.e-WB.core/a.b.e-WB_unit.vhd
+l0
+L8
+V>a;6aO8IA1<AQ;;ihn>]^1
+!s100 CA<A2:L36HRI6Cn7S99@M0
+R10
+32
+R154
+!i10b 1
+R155
+Z216 !s90 -reportprogress|300|-work|work|./a.b-DataPath.core/a.b.e-WB.core/a.b.e-WB_unit.vhd|./a.b-DataPath.core/a.b.e-WB.core/mux21_generic.vhd|
+Z217 !s107 ./a.b-DataPath.core/a.b.e-WB.core/mux21_generic.vhd|./a.b-DataPath.core/a.b.e-WB.core/a.b.e-WB_unit.vhd|
+!i113 0
+R15
+R16
+Astr
+R40
+R4
+R18
+R19
+R5
+R6
+DEx4 work 7 wb_unit 0 22 >a;6aO8IA1<AQ;;ihn>]^1
+l35
+L18
+VGQmjU5kfQVGXneZ<E[L?I0
+!s100 <oj0fcF];V`Xahh_PfS7m3
+R10
+32
+R154
+!i10b 1
+R155
+R216
+R217
+!i113 0
+R15
+R16

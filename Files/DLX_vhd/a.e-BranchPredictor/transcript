@@ -1,0 +1,1961 @@
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:14 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ff
+# -- Compiling architecture PIPPO of ff
+# End time: 16:40:14 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:16 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ff
+# -- Compiling architecture PIPPO of ff
+# End time: 16:40:17 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:18 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 16:40:18 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:18 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 16:40:18 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:20 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1591) Bad expression in right bound of range expression.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): Cannot resolve expression type.
+# ** Warning: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1147) Range in parameter specification of FOR GENERATE must be static.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(65): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(67): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(99): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/cam.vhd(112): VHDL Compiler exiting
+# End time: 16:40:20 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:20 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1591) Bad expression in right bound of range expression.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): Cannot resolve expression type.
+# ** Warning: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1147) Range in parameter specification of FOR GENERATE must be static.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(65): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(67): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(99): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/cam.vhd(112): VHDL Compiler exiting
+# End time: 16:40:20 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:23 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1591) Bad expression in right bound of range expression.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): Cannot resolve expression type.
+# ** Warning: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1147) Range in parameter specification of FOR GENERATE must be static.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(65): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(67): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(99): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/cam.vhd(112): VHDL Compiler exiting
+# End time: 16:40:23 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:38 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity up_down_counter
+# -- Compiling architecture behv of up_down_counter
+# End time: 16:40:38 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:40 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 16:40:40 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:42 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 16:40:42 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:44 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:44 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# -- Loading package STANDARD
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# -- Loading package TEXTIO
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# -- Loading package std_logic_1164
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# -- Compiling entity tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# End time: 16:40:44 on Jul 09,2021, Elapsed time: 0:00:00
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# Errors: 81, Warnings: 1
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 16:40:44 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:46 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# ** Error: /home/user/Desktop/MS2021/BP/ram_target.vhd(38): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/ram_target.vhd(52): VHDL Compiler exiting
+# End time: 16:40:46 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:47 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 16:40:48 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:51 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_target_buffer
+# -- Compiling architecture behv of branch_target_buffer
+# End time: 16:40:51 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:53 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1014) Array type case expression must be of a locally static subtype.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: /home/user/Desktop/MS2021/BP/branch_history_table.vhd(85): VHDL Compiler exiting
+# End time: 16:40:54 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 16:40:55 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1581) No feasible entries for infix operator '-'.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1591) Bad expression in right bound of range expression.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(61): Cannot resolve expression type.
+# ** Warning: /home/user/Desktop/MS2021/BP/cam.vhd(61): (vcom-1147) Range in parameter specification of FOR GENERATE must be static.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(64): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(65): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(67): Target type ieee.std_logic_1164.STD_ULOGIC in signal assignment is different from expression type Integer.
+# ** Error: /home/user/Desktop/MS2021/BP/cam.vhd(99): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/cam.vhd(112): VHDL Compiler exiting
+# End time: 16:40:55 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 8, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:43 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# End time: 17:28:43 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:45 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ff
+# -- Compiling architecture PIPPO of ff
+# End time: 17:28:46 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:47 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 17:28:47 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:49 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity up_down_counter
+# -- Compiling architecture behv of up_down_counter
+# End time: 17:28:49 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:52 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 17:28:52 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:53 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 17:28:53 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:54 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:54 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# ** Error: /home/user/Desktop/MS2021/BP/ram_target.vhd(38): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/ram_target.vhd(52): VHDL Compiler exiting
+# End time: 17:28:55 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# ** Error: /home/user/Desktop/MS2021/BP/ram_target.vhd(38): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/ram_target.vhd(52): VHDL Compiler exiting
+# End time: 17:28:55 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:56 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# ** Error: /home/user/Desktop/MS2021/BP/ram_target.vhd(38): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/ram_target.vhd(52): VHDL Compiler exiting
+# End time: 17:28:56 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:28:59 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 17:28:59 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:29:01 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# ** Error: /home/user/Desktop/MS2021/BP/ram_target.vhd(38): Target type ieee.NUMERIC_STD.UNRESOLVED_UNSIGNED in signal assignment is different from expression type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Note: /home/user/Desktop/MS2021/BP/ram_target.vhd(52): VHDL Compiler exiting
+# End time: 17:29:01 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:14 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 17:30:14 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:16 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ff
+# -- Compiling architecture PIPPO of ff
+# End time: 17:30:16 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:18 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# End time: 17:30:18 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:20 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_target_buffer
+# -- Compiling architecture behv of branch_target_buffer
+# End time: 17:30:20 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:23 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 17:30:23 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:23 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 17:30:24 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:26 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 17:30:26 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:28 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 17:30:28 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:30 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 17:30:30 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:30 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 17:30:30 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:33 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity up_down_counter
+# -- Compiling architecture behv of up_down_counter
+# End time: 17:30:33 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:35 on Jul 09,2021
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_predictor
+# -- Compiling architecture behv of branch_predictor
+# End time: 17:30:35 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:35 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_predictor
+# -- Compiling architecture behv of branch_predictor
+# End time: 17:30:35 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:36 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:36 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1014) Array type case expression must be of a locally static subtype.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: /home/user/Desktop/MS2021/BP/branch_history_table.vhd(85): VHDL Compiler exiting
+# End time: 17:30:37 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1014) Array type case expression must be of a locally static subtype.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: /home/user/Desktop/MS2021/BP/branch_history_table.vhd(85): VHDL Compiler exiting
+# End time: 17:30:37 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 17:30:43 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1014) Array type case expression must be of a locally static subtype.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/branch_history_table.vhd(44): (vcom-1339) Case statement choices cover only 4 out of 81 cases.
+# ** Note: /home/user/Desktop/MS2021/BP/branch_history_table.vhd(85): VHDL Compiler exiting
+# End time: 17:30:43 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:34 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# End time: 18:18:34 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:38 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_target_buffer
+# -- Compiling architecture behv of branch_target_buffer
+# End time: 18:18:38 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:40 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/cam.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cam
+# -- Compiling architecture behv of cam
+# End time: 18:18:40 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:41 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ff.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ff
+# -- Compiling architecture PIPPO of ff
+# End time: 18:18:41 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:43 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:43 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/mux21_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# ** Warning: (vcom-6) -- Waiting for lock by "user@secube-programming-vm, pid = 37761". Lockfile is "/home/user/Desktop/MS2021/BP/work/_lock".
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 18:18:43 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity MUX21_generic
+# -- Compiling architecture BEHAVIORAL of MUX21_generic
+# End time: 18:18:44 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:47 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/up_dow_counter.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity up_down_counter
+# -- Compiling architecture behv of up_down_counter
+# End time: 18:18:47 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:48 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:18:49 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:50 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:50 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:51 on Jul 09,2021
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:50 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# ** Warning: (vcom-6) -- Waiting for lock by "user@secube-programming-vm, pid = 37780". Lockfile is "/home/user/Desktop/MS2021/BP/work/_lock".
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# ** Warning: (vcom-6) -- Waiting for lock by "user@secube-programming-vm, pid = 37780". Lockfile is "/home/user/Desktop/MS2021/BP/work/_lock".
+# -- Compiling architecture PIPPO of register_n
+# ** Warning: (vcom-6) -- Waiting for lock by "user@secube-programming-vm, pid = 37780". Lockfile is "/home/user/Desktop/MS2021/BP/work/_lock".
+# End time: 18:18:51 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:51 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/register_n.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 18:18:51 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+# -- Loading package STANDARD
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# -- Loading package TEXTIO
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 18:18:52 on Jul 09,2021, Elapsed time: 0:00:01
+# End time: 18:18:53 on Jul 09,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:53 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:18:53 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:53 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:18:53 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:53 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:18:53 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# -- Loading package STANDARD
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity register_n
+# -- Compiling architecture PIPPO of register_n
+# End time: 18:18:54 on Jul 09,2021, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:55 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 18:18:55 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:55 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 18:18:55 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:18:58 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(61): Expression is not a signal.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(63): (vcom-1136) Unknown identifier "Clock".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:18:58 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 81, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:19:45 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(71): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "target_out".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1136) Unknown identifier "t_nt".
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(76): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(81): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(86): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "target_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "rst".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "pc_in".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "enable".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_bht".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "w_en_btb".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(91): (vcom-1136) Unknown identifier "branch_res".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Illegal target for signal assignment.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1136) Unknown identifier "target_in".
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:19:45 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 76, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:22:42 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_in_s" already exists in this region.
+# ** =====> Prior declaration of "target_in_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(36): (vcom-1294) Declaration with designator "target_out_s" already exists in this region.
+# ** =====> Prior declaration of "target_out_s" is at /home/user/Desktop/MS2021/BP/tb_bp.vhd(35).
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:22:42 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:23:45 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:23:45 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+# /usr/local/modelsim/modelsim_ase/linuxaloem/vcom failed.
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:23:49 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:23:49 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:24:21 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:24:21 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:25:06 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): Length field for bit string literal is not defined until VHDL 2008.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1203) String literal is not terminated with the " character.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "x00000000".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1576) expecting ';'.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Length field for bit string literal is not defined until VHDL 2008.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(72): (vcom-1272) Length of expected is 32; length of actual is 0.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 0.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:25:07 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 12, Warnings: 2
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:26:17 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1203) String literal is not terminated with the " character.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "x00000000".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1576) expecting ';'.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Length field for bit string literal is not defined until VHDL 2008.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 0.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:26:17 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 2
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:26:54 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): String literal has a character 'x' not in the enumeration type ieee.std_logic_1164.STD_LOGIC.
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1203) String literal is not terminated with the " character.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): (vcom-1136) Unknown identifier "x00000000".
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(87): near ";  ": (vcom-1576) expecting ';'.
+# ** Error: /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): Length field for bit string literal is not defined until VHDL 2008.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(77): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(82): (vcom-1272) Length of expected is 32; length of actual is 10.
+# ** Error (suppressible): /home/user/Desktop/MS2021/BP/tb_bp.vhd(92): (vcom-1272) Length of expected is 32; length of actual is 0.
+# ** Note: /home/user/Desktop/MS2021/BP/tb_bp.vhd(99): VHDL Compiler exiting
+# End time: 18:26:55 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 10, Warnings: 2
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:27:06 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(74): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 18:27:06 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:28:34 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/tb_bp.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_bp
+# -- Compiling architecture TEST of tb_bp
+# ** Warning: /home/user/Desktop/MS2021/BP/tb_bp.vhd(69): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 18:28:34 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:28:59 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (2) for port "/tb_bp/bp_c/bht_c/dout".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/bht_c File: branch_history_table.vhd Line: 21
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:29:00 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:30:19 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# End time: 18:30:19 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:30:38 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# ** Fatal: (vsim-3348) Port length (5) does not match actual length (32) for port "/tb_bp/bp_c/btb_c/cam_c/r_addr_cam".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/cam_c File: /home/user/Desktop/MS2021/BP/cam.vhd Line: 19
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:30:38 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:34:04 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_target_buffer
+# -- Compiling architecture behv of branch_target_buffer
+# End time: 18:34:05 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:34:18 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# ** Fatal: (vsim-3348) Port length (6) does not match actual length (5) for port "/tb_bp/bp_c/btb_c/cam_c/pr_enc_rentry/match_addr".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/cam_c/pr_enc_rentry File: /home/user/Desktop/MS2021/BP/priority_encoder.vhd Line: 12
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:34:18 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Load canceled
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:35:47 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_history_table.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_history_table
+# -- Compiling architecture behv of branch_history_table
+# End time: 18:35:47 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:35:49 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_predictor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_predictor
+# -- Compiling architecture behv of branch_predictor
+# End time: 18:35:49 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:35:52 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/priority_encoder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity priority_encoder
+# -- Compiling architecture Behavior of priority_encoder
+# End time: 18:35:52 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:36:15 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# Loading work.ram_target(behv)
+# ** Fatal: (vsim-3348) Port length (3) does not match actual length (32) for port "/tb_bp/bp_c/btb_c/ram_target_c/dout".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/ram_target_c File: /home/user/Desktop/MS2021/BP/ram_target.vhd Line: 18
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:36:15 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:38:12 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:38:12 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:38:32 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# Loading work.ram_target(behv)
+# ** Fatal: (vsim-3348) Port length (5) does not match actual length (32) for port "/tb_bp/bp_c/btb_c/ram_target_c/dout".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/ram_target_c File: /home/user/Desktop/MS2021/BP/ram_target.vhd Line: 18
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:38:32 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# Load canceled
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:39:27 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:39:28 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:39:43 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# Loading work.ram_target(behv)
+# ** Fatal: (vsim-3348) Port length (5) does not match actual length (32) for port "/tb_bp/bp_c/btb_c/ram_target_c/dout".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/ram_target_c File: /home/user/Desktop/MS2021/BP/ram_target.vhd Line: 18
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:39:43 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:41:59 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/ram_target.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ram_target
+# -- Compiling architecture behv of ram_target
+# End time: 18:41:59 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:42:15 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# Loading work.ram_target(behv)
+# ** Fatal: (vsim-3348) Port length (5) does not match actual length (32) for port "/tb_bp/bp_c/btb_c/ram_target_c/dout".
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/ram_target_c File: /home/user/Desktop/MS2021/BP/ram_target.vhd Line: 18
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 18:42:16 on Jul 09,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+# Start time: 18:43:52 on Jul 09,2021
+# vcom -reportprogress 300 -work work /home/user/Desktop/MS2021/BP/branch_target_buffer.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity branch_target_buffer
+# -- Compiling architecture behv of branch_target_buffer
+# End time: 18:43:52 on Jul 09,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_bp
+# vsim work.tb_bp 
+# Start time: 18:44:07 on Jul 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_bp(test)
+# Loading ieee.numeric_std(body)
+# Loading work.branch_predictor(behv)
+# Loading work.branch_history_table(behv)
+# Loading work.branch_target_buffer(behv)
+# Loading work.cam(behv)
+# Loading work.priority_encoder(behavior)
+# Loading work.ram_target(behv)
+# Loading work.mux21_generic(behavioral)
+# Loading work.register_n(pippo)
+# Loading work.ff(pippo)
+# ** Warning: (vsim-8683) Uninitialized out port /tb_bp/bp_c/btb_c/hit has no driver.
+# This port will contribute value (U) to the signal network.
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bp/bp_c/btb_c/cam_c
+# ** Fatal: (vsim-3734) Index value 32 is out of range 31 downto 0.
+#    Time: 0 ps  Iteration: 0  Process: /tb_bp/bp_c/btb_c/cam_c/pr_enc_wentry/shifting File: /home/user/Desktop/MS2021/BP/priority_encoder.vhd
+# Fatal error in ForLoop loop at /home/user/Desktop/MS2021/BP/priority_encoder.vhd line 30
+# 
+# HDL call sequence:
+# Stopped at /home/user/Desktop/MS2021/BP/priority_encoder.vhd 30 ForLoop loop
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at /home/user/Desktop/MS2021/BP/priority_encoder.vhd 30 ForLoop loop
+# 
+# End time: 21:29:24 on Jul 09,2021, Elapsed time: 2:45:17
+# Errors: 1, Warnings: 2

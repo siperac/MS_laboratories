@@ -1,0 +1,59 @@
+tb_dlx:tb_dlx(test)
+	u1:dlx(dlx_rtl)
+		datapath_comp:datapath(structural)
+			if_stage:fetch_unit(beh)
+			id_stage:decode_unit(str)
+				br_cond:branch_cond(structural)
+				p4_adder_comp:p4_adder(structural)
+				instr_dec:instruction_decoder(behavioral)
+				imm_ext:sign_ext(a)
+				val_ext:sign_ext(a)
+				mux_value_imm:mux21_generic(behavioral)
+				r_a:register_n(pippo)
+				r_b:register_n(pippo)
+				rf:register_file(a)
+				imm:register_n(pippo)
+				reg_waddr:register_n(pippo)
+				Process comp
+				Process line__174
+				Process line__202
+				Process line__133
+			ex_stage:execute_unit(str)
+				register_alu:register_n(pippo)
+				alu_comp:alu(behavior)
+				mux_b_imm:mux21_generic(behavioral)
+				mux_cond_alu:mux21_generic(behavioral)
+				p4_adder_comp:p4_adder(structural)
+				compar_comp:comparator(beh)
+				cond_comp:cond(structural)
+				registerb:register_n(pippo)
+				n2pc:register_n(pippo)
+				reg_waddr:register_n(pippo)
+			mem_stage:memory_unit(str)
+			wb_stage:wb_unit(str)
+			Process line__166
+			Process line__167
+		data_mem_comp:data_memory(str)
+		control_unit_comp:dlx_cu(dlx_cu_hw)
+		iram_i:iram(iram_bhe)
+			Process line__34
+			Process fill_mem_p
+		Process ir_p
+		Process pc_p
+		Process line__220
+		Process line__234
+	Process line__41
+	Process pclock
+Package standard
+Package std_logic_1164
+Package globals
+Package std_logic_arith
+Package std_logic_unsigned
+Package numeric_std
+Package math_real
+Package branch_type
+Package alu_type
+Package attributes
+Package std_logic_misc
+Package textio
+Package std_logic_textio
